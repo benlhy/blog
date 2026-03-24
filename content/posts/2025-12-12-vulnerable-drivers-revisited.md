@@ -20,8 +20,7 @@ I came across another vulnerable driver while browsing my feed the other day. Fo
   favicon="/images/icon/favicon-3.ico"
   thumbnail="/images/thumbnail/Screenshot-2024-12-14-170629.png"
   site="West Side Electronics"
-  author="Benjamen Lim"
->}}
+  author="Benjamen Lim">}}
 
 The original research was conducted by Northwave Cyber Security:
 {{< bookmark
@@ -30,8 +29,7 @@ The original research was conducted by Northwave Cyber Security:
   description="Reloaded: Exploiting antifraud software of banks to kill Microsoft DefenderBlackoutReloaded: Exploiting antifraud software of banks to kill Microsoft Defender"
   favicon="/images/icon/NW-Icon-1.png"
   thumbnail="/images/thumbnail/SOC-CMM-1-1.png"
-  site="Northwave Cyber Security"
->}}
+  site="Northwave Cyber Security">}}
 This time I've only given myself the name of the driver to start with, and I'm using Binary Ninja instead of Ghidra to explore other reverse engineering tools.
 
 # Discovery
