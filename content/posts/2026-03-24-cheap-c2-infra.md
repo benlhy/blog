@@ -130,6 +130,9 @@ Cloudflare tunnels have been out for awhile now, and are mainly used for their Z
   site="Cloudflare Docs"
 >}}
 
-This helps us create our first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra.
+This creates the first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra.
+
+![](images/Pasted%20image%2020260324210618.png)
 
 
+But how can beacons connect to the WireGuard C2?
