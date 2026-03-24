@@ -2,7 +2,7 @@
 title: Cheap C2 Infra
 date: 2026-03-24T16:16:07+08:00
 draft: false
-tags: []
+tag: ["offensive security",]
 ---
 I recently finished the CRTO course, and it got me very interested in building red team infrastructure. This interest also came from an instance when I was warned by my very nice VPS provider that running C2 infrastructure was not allowed on their infrastructure.
 

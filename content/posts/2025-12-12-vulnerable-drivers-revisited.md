@@ -1,14 +1,18 @@
 ---
-title: "Vulnerable Drivers - Revisited"
+title: Vulnerable Drivers - Revisited
 date: 2025-12-12T19:52:50+00:00
-slug: "vulnerable-drivers-revisited"
+slug: vulnerable-drivers-revisited
 draft: false
 description: "In this post, I'll explore exploiting another driver: wsftprm.sys, but this time I've only given myself the target and no additional information in order to learn the enumeration and discovery techniques to approach driver N-day research."
 cover:
-  image: "/images/2025/12/Gemini_Generated_Image_2kj3ap2kj3ap2kj3.png"
+  image: /images/2025/12/Gemini_Generated_Image_2kj3ap2kj3ap2kj3.png
   relative: false
   hiddenInList: false
-tags: ["driver", "2025", "Windows", "binary ninja"]
+tag:
+  - driver
+  - "2025"
+  - Windows
+  - binary ninja
 ---
 
 I came across another vulnerable driver while browsing my feed the other day. Following my research last year, I was curious how much of the methodology can be carried over.

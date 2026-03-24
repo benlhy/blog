@@ -17,7 +17,7 @@ theme = 'PaperMod'
   ShowThumbnailOnList = true
 
 [taxonomies]
-  tag = 'tags'
+  tag = 'tag'
 
 [params.cover]
   hiddenInList = false
