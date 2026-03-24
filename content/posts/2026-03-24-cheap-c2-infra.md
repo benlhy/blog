@@ -118,3 +118,18 @@ While the whole point of redirectors are to be a disposable resource, tasking th
 
 And it also violates our earlier principle of minimising the services we are running on the server.
 
+## Cloudflare, would you tunnel this for me?
+Cloudflare tunnels have been out for awhile now, and are mainly used for their Zero Trust services. But an interesting property is that Cloudflare tunnels have the capability to route internal resources to Cloudflare resources without exposing your resources to the internet, essentially creating a mini hybrid VPC of cloud and on-prem resources.
+
+{{< bookmark
+  url="https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/"
+  title="Cloudflare Tunnel"
+  description="Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address. With Tunnel, you do not send traffic to an external IP — instead, a lightweight daemon in your infrastructure (cloudflared) creates outbound-only connections to Cloudflare"
+  favicon="https://developers.cloudflare.com/favicon.png"
+  thumbnail="https://developers.cloudflare.com/zt-preview.png"
+  site="Cloudflare Docs"
+>}}
+
+This helps us create our first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra.
+
+
