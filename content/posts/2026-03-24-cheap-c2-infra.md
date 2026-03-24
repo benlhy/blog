@@ -101,4 +101,20 @@ This script resolves the DNS entry in the WireGuard configuration file. We just 
 sudo ip route add 8.8.8.8 via [gateway IP] dev eth0
 ```
 
-Make sure `eth0` is your exit gateway, it took me an embarrassingly long time to debug my own setup was
+Make sure `eth0` is the interface to your local gateway, it took me an embarrassingly long time to debug my own setup was not `eth0`, but `ens`.
+
+To ensure that this will auto-resolve we can add a `cron` job at a reasonable interval.
+
+```
+sudo crontab -e
+
+*/5 * * * * /bin/bash /usr/share/doc/wireguard-tools/examples/reresolve-dns/reresolve-dns.sh wg0 > /dev/null 2>&1
+```
+
+## now for the C2 infra
+Assuming that I used HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
+
+While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server is a little close to home, and besides, I didn't want to get another warning letter from my service provider.
+
+And it also violates our earlier principle of minimising the services we are running on the server.
+
