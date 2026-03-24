@@ -2,13 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Benjamen Lim'
 theme = 'PaperMod'
-[module]
-  [[module.mounts]]
-    source = "images"
-    target = "static/images"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
+
 
 [params]
   ShowReadingTime = true

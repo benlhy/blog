@@ -2,4 +2,7 @@
 {{- if strings.HasPrefix $src "static/" -}}
   {{- $src = strings.TrimPrefix "static/" $src -}}
 {{- end -}}
-<img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+{{- if not (strings.HasPrefix $src "/") -}}
+  {{- $src = printf "/%s" $src -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} />
