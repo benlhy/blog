@@ -8,14 +8,7 @@ tag:
   - infra
   - "2026"
 ---
-I recently finished the CRTO course, and it got me very interested in building red team infrastructure. This interest also came from an in{{< bookmark
-  url="https://github.com/WireGuard/wireguard-tools/blob/master/contrib/reresolve-dns/reresolve-dns.sh"
-  title="wireguard-tools/contrib/reresolve-dns/reresolve-dns.sh at master · WireGuard/wireguard-tools"
-  description="Mirror only. Official repository is at https://git.zx2c4.com/wireguard-tools - WireGuard/wireguard-tools"
-  favicon="https://github.com/fluidicon.png"
-  thumbnail="https://opengraph.githubassets.com/565cff33021ddd048def1618c4960a7042c17cac493034d2cb10ba3298829188/WireGuard/wireguard-tools"
-  site="GitHub"
->}}stance when I was warned by my very nice VPS provider that running C2 infrastructure was not allowed on their infrastructure.
+I recently finished the CRTO course, and it got me very interested in building red team infrastructure. This interest also came from an instance when I was warned by my very nice VPS provider that running C2 infrastructure was not allowed on their infrastructure.
 
 I'm not an expert in setting up C2 infra, and I'm sure others have way more sophisticated setups than mine, but this is how I've chosen to set up my infra.
 
