@@ -1,4 +1,4 @@
-baseURL = 'https://benjamenlim.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Benjamen Lim'
 theme = 'PaperMod'
