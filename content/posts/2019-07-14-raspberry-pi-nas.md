@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/07/New-Project.jpg"
   relative: false
   hiddenInList: false
-tags: ["Raspberry Pi", "Getting Started", "2019", "NAS", "Projects"]
+tag: ["Raspberry Pi", "Getting Started", "2019", "NAS", "Projects"]
 ---
 
 Tldr; Build a local Dropbox-like system on a Raspberry Pi without spending hundreds on a dedicated NAS (Network attached storage).

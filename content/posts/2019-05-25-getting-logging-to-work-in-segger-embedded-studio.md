@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/05/Capture.JPG"
   relative: false
   hiddenInList: false
-tags: ["Segger", "RTT", "Logging", "classes", "nrf52", "Nordic", "tips"]
+tag: ["Segger", "RTT", "Logging", "classes", "nrf52", "Nordic", "tips"]
 ---
 
 Segger Embedded Studio is a lightweight IDE that is used for Nordic devices. Getting logging to work with the 15.3 SDK has been a long journey though, so I thought I might write down my process in getting the debug terminal to print out RTT messages.

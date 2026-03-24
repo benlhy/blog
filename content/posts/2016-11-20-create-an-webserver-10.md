@@ -3,7 +3,7 @@ title: "Create a WebServer (10)"
 date: 2016-11-20T04:42:37+00:00
 slug: "create-an-webserver-10"
 draft: false
-tags: ["ULCEK Tutorials", "webserver", "esp8266", "Guides"]
+tag: ["ULCEK Tutorials", "webserver", "esp8266", "Guides"]
 ---
 
 With the ESP8266 it was hinted earlier that it can host a web page, and this guide serves as a quick breakdown of how to create a server that serves up webpage. This can also be found as a sketch under Examples. This tutorial assumes that you have some knowledge of HTML.

@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/ota-7.jpg"
   relative: false
   hiddenInList: false
-tags: ["esp8266", "ULCEK Tutorials", "ota", "wifi", "Guides"]
+tag: ["esp8266", "ULCEK Tutorials", "ota", "wifi", "Guides"]
 ---
 
 This tutorial is only for the ESP8266 chip.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/07/resistors.jpg"
   relative: false
   hiddenInList: false
-tags: ["SMD", "Getting Started", "Arduino", "PCB", "Guides"]
+tag: ["SMD", "Getting Started", "Arduino", "PCB", "Guides"]
 ---
 
 ### What is it?

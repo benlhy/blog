@@ -3,7 +3,7 @@ title: "Moving mountains, exactly with Servos, but first, a Library (13)"
 date: 2016-12-14T17:21:47+00:00
 slug: "moving-mountains-exactly-with-servos-but-first-a-library"
 draft: false
-tags: ["servo", "motor", "ULCEK Tutorials", "libraries", "learning", "::", "functions", "classes", "Guides"]
+tag: ["servo", "motor", "ULCEK Tutorials", "libraries", "learning", "::", "functions", "classes", "Guides"]
 ---
 
 This works on the **WeMos Mini**. It should work on the **Digispark**, however, the servo is sporadic, indicating that there might be issues with the ability of the timer to keep up.

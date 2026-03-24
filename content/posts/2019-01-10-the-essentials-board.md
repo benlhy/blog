@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/01/IMG_0259-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Essentials Board", "Projects"]
+tag: ["Essentials Board", "Projects"]
 ---
 
 # What is it?

@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/IMG_20181225_095110_HDR.jpg"
   relative: false
   hiddenInList: false
-tags: ["LCD", "ST7735", "UART", "CircuitPython", "C", "ATSAMD10"]
+tag: ["LCD", "ST7735", "UART", "CircuitPython", "C", "ATSAMD10"]
 ---
 
 I really like the ST7735 LCD. It is large enough to display a lot of relevant information at once, but small enough to still be portable. It also has RGB colors, so you can really display some interesting graphs and information with this screen. It is a popular LCD because the communication method is well supported and understood. One LCD is about $2, which really makes it an attractive option as a debugging tool. For example, if your code isn't working, sometimes it might be helpful to print out the internal details to a screen instead of back to a terminal, especially for mobile systems like robots.

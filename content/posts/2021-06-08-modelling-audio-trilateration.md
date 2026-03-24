@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/03/trilateration.png"
   relative: false
   hiddenInList: false
-tags: ["Python", "trilateration", "matplotlib", "audio", "2021"]
+tag: ["Python", "trilateration", "matplotlib", "audio", "2021"]
 ---
 
 Trilateration is the act of finding a location given a set of distances from known locations. It is a little different from triangulation where you know the angles from known locations.

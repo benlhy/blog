@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/10/gloud-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["bus app", "Google", "cloud", "functions", "GCP", "nodejs", "webserver", "Singapore", "arrival"]
+tag: ["bus app", "Google", "cloud", "functions", "GCP", "nodejs", "webserver", "Singapore", "arrival"]
 ---
 
 I triumphantly declared that the Cloud was simply too expensive for me in my second post about the bus app, and migrated from Google Firebase to my own hosted instance to save costs.

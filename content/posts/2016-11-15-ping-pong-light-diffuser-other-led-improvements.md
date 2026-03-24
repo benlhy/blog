@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/image11-2.jpg"
   relative: false
   hiddenInList: false
-tags: ["Guides", "LED"]
+tag: ["Guides", "LED"]
 ---
 
 You use LEDs everywhere, here are some ways to make them better.

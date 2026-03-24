@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/08/mqtt_basics.png"
   relative: false
   hiddenInList: false
-tags: ["mqtt", "sunrise", "alarm", "wifi", "home automation", "wemos", "sensors"]
+tag: ["mqtt", "sunrise", "alarm", "wifi", "home automation", "wemos", "sensors"]
 ---
 
 How I automated my home with MQTT.

@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/10/digispark3-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "digispark", "temperature"]
+tag: ["Projects", "digispark", "temperature"]
 ---
 
 The Digispark is a low-cost Attiny85 module that breaks out all pins in a breadboard friendly format and combines it with a USB interface to allow programming with the Arduino IDE. Because it is open source, others have found methods to reduce the cost of production of this board and it can be had for as low as $1 a board.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/10/mini-2.PNG"
   relative: false
   hiddenInList: false
-tags: ["kicad", "2021", "inkscape", "graphics", "svg", "how to", "pretty", "PCB"]
+tag: ["kicad", "2021", "inkscape", "graphics", "svg", "how to", "pretty", "PCB"]
 ---
 
 # Prerequisites

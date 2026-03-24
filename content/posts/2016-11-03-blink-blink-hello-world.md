@@ -3,7 +3,7 @@ title: "Blink, blink. Hello World! (1)"
 date: 2016-11-03T22:08:11+00:00
 slug: "blink-blink-hello-world"
 draft: false
-tags: ["ulck", "ULCEK Tutorials", "LED", "blink", "Guides"]
+tag: ["ulck", "ULCEK Tutorials", "LED", "blink", "Guides"]
 ---
 
 So you have an ULCK set in your hands. Now what?

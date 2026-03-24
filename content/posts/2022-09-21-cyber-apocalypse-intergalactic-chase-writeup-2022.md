@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/09/ctf.jpg"
   relative: false
   hiddenInList: false
-tags: ["CTF", "HTB", "2022", "Cyber Apocalypse"]
+tag: ["CTF", "HTB", "2022", "Cyber Apocalypse"]
 ---
 
 The hardware challenge for the Cyber Apocalypse was pretty creative! I enjoyed solving the challenges and it had a wide variety of hardware related skills that tested my understanding of what I was seeing in front of me.

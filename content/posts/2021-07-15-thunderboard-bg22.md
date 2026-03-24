@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/10/template-3-.jpg"
   relative: false
   hiddenInList: false
-tags: ["Silicon Labs", "BLE", "BG22", "Thunderboard", "2020", "Projects"]
+tag: ["Silicon Labs", "BLE", "BG22", "Thunderboard", "2020", "Projects"]
 ---
 
 Introducing the Thunderboard BG22 from Silicon Labs! Featuring the all new EFR32BG22 Bluetooth 5.2 IC and a whole bevy of sensors, it is the perfect platform for learning BLE and microcontrollers.

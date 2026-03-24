@@ -3,7 +3,7 @@ title: "Breadboarding (2)"
 date: 2016-11-09T18:46:47+00:00
 slug: "breadboarding"
 draft: false
-tags: ["ULCEK Tutorials", "LED", "Guides"]
+tag: ["ULCEK Tutorials", "LED", "Guides"]
 ---
 
 We will blink an LED again, except this time we will move it to to the breadboard. The difference is that we are connecting an external circuit to our microcontroller by giving one of the pins an output signal (much like how everything is run).

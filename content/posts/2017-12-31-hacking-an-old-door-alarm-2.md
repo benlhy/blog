@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/emergencycircuit.jpg"
   relative: false
   hiddenInList: false
-tags: ["teardown", "alarm"]
+tag: ["teardown", "alarm"]
 ---
 
 I had one of these lying around the house. It was bought for the windows and doors, but it was never used at my place.

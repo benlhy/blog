@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/04/udacity-data.png"
   relative: false
   hiddenInList: false
-tags: ["2021", "review", "Data Engineering", "data science", "content", "Nanodegree", "Udacity", "Python"]
+tag: ["2021", "review", "Data Engineering", "data science", "content", "Nanodegree", "Udacity", "Python"]
 ---
 
 Tldr; more content, worse support. If you are looking into this Nanodegree to learn data engineering I would strongly advise you to look elsewhere.

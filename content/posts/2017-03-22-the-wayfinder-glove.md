@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/08/IMG_0226.JPG"
   relative: false
   hiddenInList: false
-tags: ["Projects", "wayfinder glove"]
+tag: ["Projects", "wayfinder glove"]
 ---
 
 This is a cycling glove that lights up with a flick of the wrist. Additional projected capabilities include bluetooth communication, a compass mode, and a waypoint mode where the glove points you to your next waypoint.

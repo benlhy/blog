@@ -3,7 +3,7 @@ title: "Breathing an LED (3)"
 date: 2016-11-11T18:17:04+00:00
 slug: "breathing-an-led"
 draft: false
-tags: ["ULCEK Tutorials", "LED", "programming", "breathing", "Guides"]
+tag: ["ULCEK Tutorials", "LED", "programming", "breathing", "Guides"]
 ---
 
 Blinking an LED is all fine and dandy, but it doesn't make for any pretty effects. A breathing LED, now that is something pretty to gaze upon.

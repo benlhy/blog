@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/08/sorry.JPG"
   relative: false
   hiddenInList: false
-tags: ["privacy", "video", "not working", "Chrome"]
+tag: ["privacy", "video", "not working", "Chrome"]
 ---
 
 To fix this problem check the addons you might be running. Usually addons that modify cookies are the culprit. If you have Privacy Badger, disabling it helps. Also check Chrome settings to change privacy settings if necessary. If all else fails, try switching to a different browser to see if it works.

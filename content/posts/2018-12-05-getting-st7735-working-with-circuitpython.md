@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/ST7735.JPG"
   relative: false
   hiddenInList: false
-tags: ["CircuitPython", "ST7735", "Micropython", "Adafruit", "Itsy Bitsy"]
+tag: ["CircuitPython", "ST7735", "Micropython", "Adafruit", "Itsy Bitsy"]
 ---
 
 tldr: Load the font5x8.bin in the root rather than in the lib directory. Change _MADCTL in the ST7735.py folder to 0xc8 to flip BLUE and RED.

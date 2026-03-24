@@ -8,7 +8,7 @@ cover:
   image: "/images/2017/12/prototype-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Arduino", "nRF24l01", "controller", "joystick"]
+tag: ["Arduino", "nRF24l01", "controller", "joystick"]
 ---
 
 Let's build an Arduino wireless controller in a Wii Nunchuk 3D-printed case with an nRF24L01!

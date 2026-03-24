@@ -3,7 +3,7 @@ title: "Lightbeans Part 1, Programming and Circuits"
 date: 2017-01-23T13:56:40+00:00
 slug: "lightbeans-part-1"
 draft: false
-tags: ["lightbeans"]
+tag: ["lightbeans"]
 ---
 
 **Lightbeans** is a series of new tutorials for the ULCEK kit that is aimed at new users. It is a project to make a self-activating night light with the components in the ULCEK kit.

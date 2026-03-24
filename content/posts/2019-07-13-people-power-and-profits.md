@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/07/ppp.jpg"
   relative: false
   hiddenInList: false
-tags: ["books"]
+tag: ["books"]
 ---
 
 For future reference

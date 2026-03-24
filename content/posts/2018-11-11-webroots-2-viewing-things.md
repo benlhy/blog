@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/OLED.JPG"
   relative: false
   hiddenInList: false
-tags: ["Arduino", "oled"]
+tag: ["Arduino", "oled"]
 ---
 
 With an OLED screen you can view quite a number of things, and with two buttons you can switch between views. It is also much easier to interpret things when they aren't blinking LED lights.

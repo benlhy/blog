@@ -3,7 +3,7 @@ title: "You can't make brown or black with an RGB LED (and other ended projects)
 date: 2016-12-20T02:41:57+00:00
 slug: "you-cant-make-brown-or-black-an-rgb-led-2"
 draft: false
-tags: ["ended-projects"]
+tag: ["ended-projects"]
 ---
 
 Not with LEDs. You can only make whatever color that is in the color wheel. That is to say only what you can get when you mix red or blue light, or blue with green. Or green with red. That is all.

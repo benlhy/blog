@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/11/20221113_160552.jpg"
   relative: false
   hiddenInList: false
-tags: ["Padauk", "$0.03", "Touch", "Capacitive", "Headphones", "3 cent microcontroller", "2022", "upgrade"]
+tag: ["Padauk", "$0.03", "Touch", "Capacitive", "Headphones", "3 cent microcontroller", "2022", "upgrade"]
 ---
 
 *How I upgraded my headphones to be fully wireless with a $2 board*

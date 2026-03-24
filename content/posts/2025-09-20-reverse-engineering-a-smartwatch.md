@@ -8,7 +8,7 @@ cover:
   image: "/images/2025/09/Screenshot-2025-09-19-232843.png"
   relative: false
   hiddenInList: false
-tags: ["firmware", "reverse-engineering"]
+tag: ["firmware", "reverse-engineering"]
 ---
 
 This first appeared in: [https://medium.com/csg-govtech/reverse-engineering-a-smartwatch-a7cec52b29c8](https://medium.com/csg-govtech/reverse-engineering-a-smartwatch-a7cec52b29c8)

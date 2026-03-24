@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/wifiboard1.jpg"
   relative: false
   hiddenInList: false
-tags: ["education"]
+tag: ["education"]
 ---
 
 This was the project that started it all. This was the final project of the class *Engineering System Design I.* In this class, we were taught how to design and produce a webcam from scratch, from the programming, to the PCB and CAD design of the case.

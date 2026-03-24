@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/08/original_e9bfbd1f-9fde-4a4d-8470-f6bf6ff6618d_PXL_20210827_213531275.jpg"
   relative: false
   hiddenInList: false
-tags: ["2021", "making", "vs", "buying"]
+tag: ["2021", "making", "vs", "buying"]
 ---
 
 To buy or to build is all about the tradeoffs in light of unknowns: if you buy, you can get the product you need faster, but you sacrifice flexibility later on.  You also have to consider ecosystem lock-in and being forced to build hacky workarounds to get the functionality you want. If the project turns out to be massively successful and you need a custom application, tearing down everything and rebuilding from scratch can be very painful.

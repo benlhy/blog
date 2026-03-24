@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/01/nrf24soldered-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["nRF24l01", "Arduino", "PCB", "MySensors", "Projects"]
+tag: ["nRF24l01", "Arduino", "PCB", "MySensors", "Projects"]
 ---
 
 While blinking LEDs can be really fun, wireless communication is like magic.

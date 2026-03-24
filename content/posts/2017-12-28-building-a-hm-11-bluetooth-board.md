@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/mychip-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "Bluetooth", "Arduino"]
+tag: ["Projects", "Bluetooth", "Arduino"]
 ---
 
 After messing around with the nRF52 for a little while, one day I wondered if there was a cheaper option for bluetooth modules, because all I really wanted was the Bluetooth from the nRF52. It took awhile to look, but I was not disappointed. I found the CC2541.

@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/IMG_20171228_223020-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Guides", "Screen", "TFT", "LCD"]
+tag: ["Guides", "Screen", "TFT", "LCD"]
 ---
 
 This is how I hooked up an ST 7735 TFT LCD module to an Arduino. This is a small, cheap screen with color display, and an excellent Adafruit library has already been written for it, making it a breeze to use.

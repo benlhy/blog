@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/address.jpg"
   relative: false
   hiddenInList: false
-tags: ["rgb", "ULCEK Tutorials", "addressable", "ws2812b", "Guides"]
+tag: ["rgb", "ULCEK Tutorials", "addressable", "ws2812b", "Guides"]
 ---
 
 This tutorial can only be done with the Lighting Add-On pack.

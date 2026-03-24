@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/10/paracord1-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "paracord"]
+tag: ["Projects", "paracord"]
 ---
 
 This project is a combination of a paracord bracelet and Adafruit's LED Friendship Bracelet by Becky Stern which can be found [here](https://learn.adafruit.com/nautical-led-bracelet/overview). The problem that I had with the original design was that the batteries were falling out easily and it was slightly awkward in fitting them in.

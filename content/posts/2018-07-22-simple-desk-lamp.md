@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/07/overhead-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "DIY", "lamp", "LED", "desk", "simple", "easy", "overhead", "no shadows", "arch", "design", "instagram", "flatlay"]
+tag: ["Projects", "DIY", "lamp", "LED", "desk", "simple", "easy", "overhead", "no shadows", "arch", "design", "instagram", "flatlay"]
 ---
 
 This is a easy project for adding some really nice lighting to your desk. It is an LED strip suspended in an arc above the desk, providing efficient lighting with almost no shadows. There is no soldering involved, so it is perfect for your first project if you've never worked with electronics before.

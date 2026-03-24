@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/sensor-4.jpg"
   relative: false
   hiddenInList: false
-tags: ["ULCEK Tutorials", "Arduino", "programming", "sensors", "LDR", "light sensor", "Guides"]
+tag: ["ULCEK Tutorials", "Arduino", "programming", "sensors", "LDR", "light sensor", "Guides"]
 ---
 
 Often when we build devices we want them to react to the external environment. This means we have to implement some sort of sensor to detect the changes.

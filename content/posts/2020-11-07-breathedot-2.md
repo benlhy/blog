@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/front.jpg"
   relative: false
   hiddenInList: false
-tags: ["BreatheDot", "2020", "STM32", "meditation", "breathing"]
+tag: ["BreatheDot", "2020", "STM32", "meditation", "breathing"]
 ---
 
 [BreatheDot by West Side Electronics on TindieA Portable Meditation Aid![](https://d2ss6ovg47m0r5.cloudfront.net/ico/apples-touch-icon-precomposed.png)Tindie![](https://cdn.tindiemedia.com/images/resize/e5dj-un2h8WaC8Vz0nIN5WY3OtY&#x3D;/p/1200x630/smart/i/14595/products/2017-09-02T14%3A31%3A28.557Z-image.jpg?1606306133)](https://www.tindie.com/products/ulcek/breathedot-2/)Extra units available for purchase

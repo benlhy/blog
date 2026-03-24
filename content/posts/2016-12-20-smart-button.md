@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/01/pi.jpg"
   relative: false
   hiddenInList: false
-tags: ["IoT", "esp8266", "mqtt", "wall-switch", "Projects"]
+tag: ["IoT", "esp8266", "mqtt", "wall-switch", "Projects"]
 ---
 
 Ever wanted a artificial assistant that you control? Well now you can! With all the api's floating around, it is extremely simple to build a Siri-like/Alexa device that you can completely program and control in Python. This also avoids the somewhat uncomfortable idea that a company has a listening device in your room.

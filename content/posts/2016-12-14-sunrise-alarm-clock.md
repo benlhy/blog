@@ -8,7 +8,7 @@ cover:
   image: "/images/2016/12/window-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "LED", "DS1307", "LED strip", "sunrise", "alarm", "Arduino", "wake-up", "DIY"]
+tag: ["Projects", "LED", "DS1307", "LED strip", "sunrise", "alarm", "Arduino", "wake-up", "DIY"]
 ---
 
 I have trouble waking up on gloomy winter days. Hearing so much about the Philips Wake-Up alarm made me wonder how hard it was to build one given its rather high price.

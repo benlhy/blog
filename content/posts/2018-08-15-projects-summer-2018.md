@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/07/1strock-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["3D printing", "Anet A8", "SAMD10", "SAMD21", "SAMD51", "Rocketry", "Miniature", "Breakout"]
+tag: ["3D printing", "Anet A8", "SAMD10", "SAMD21", "SAMD51", "Rocketry", "Miniature", "Breakout"]
 ---
 
 Projects! Yay!

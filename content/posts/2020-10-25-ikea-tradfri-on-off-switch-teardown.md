@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/10/fb_ikea_switch-1.png"
   relative: false
   hiddenInList: false
-tags: ["ikea", "2020", "teardown", "Silicon Labs", "Zigbee", "Wireless", "wall-switch", "TRADFRI", "IoT", "home automation"]
+tag: ["ikea", "2020", "teardown", "Silicon Labs", "Zigbee", "Wireless", "wall-switch", "TRADFRI", "IoT", "home automation"]
 ---
 
 Tldr; **well-designed button** with **multiple interesting design features**. If exposed, well-labelled, debugging pins excite you, you've come to the right place.

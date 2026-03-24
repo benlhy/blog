@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/11/Capture.JPG"
   relative: false
   hiddenInList: false
-tags: ["soldering", "kit", "555 timer", "blinking", "teach", "learning"]
+tag: ["soldering", "kit", "555 timer", "blinking", "teach", "learning"]
 ---
 
 I like soldering and occasionally I have to teach people how to solder. However, when people first learn how to solder, you don't want those joints on production systems. My solution has always been to pull out old PCBs, which come in stacks of 10 and have them learn how to solder random joints/wires together.

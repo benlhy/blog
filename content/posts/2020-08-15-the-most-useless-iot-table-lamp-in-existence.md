@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/08/iotlamp-2.jpg"
   relative: false
   hiddenInList: false
-tags: ["IoT", "Table lamp", "2020", "Arduino", "design", "mechanical", "electrical", "esp8266"]
+tag: ["IoT", "Table lamp", "2020", "Arduino", "design", "mechanical", "electrical", "esp8266"]
 ---
 
 Today I want to introduce the most useless IoT thing that I've made so far. It is a table lamp that I've retrofitted with a WeMos Mini Pro.

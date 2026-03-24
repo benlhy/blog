@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/08/pin2.png"
   relative: false
   hiddenInList: false
-tags: ["Google", "Images", "search", "without", "permanent", "remove", "Pinterest", "automatic", "exclude", "Researchgate", "Chegg", "no install", "no addon"]
+tag: ["Google", "Images", "search", "without", "permanent", "remove", "Pinterest", "automatic", "exclude", "Researchgate", "Chegg", "no install", "no addon"]
 ---
 
 *Edit: A typo corrected by a very kind suggestion from Adam Flynn.*

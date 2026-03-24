@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/01/light.jpg"
   relative: false
   hiddenInList: false
-tags: ["lightbeans"]
+tag: ["lightbeans"]
 ---
 
 Now you've got all the tools you need to make the nightlight.

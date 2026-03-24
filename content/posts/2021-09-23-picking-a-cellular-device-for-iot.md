@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/09/igor-6mFcQOOi5QY-unsplash-2.jpg"
   relative: false
   hiddenInList: false
-tags: ["IoT", "development", "2020", "Cellular", "Nordic", "Quectel", "Sierra", "IC", "module"]
+tag: ["IoT", "development", "2020", "Cellular", "Nordic", "Quectel", "Sierra", "IC", "module"]
 ---
 
 In my quest to achieve True Wireless™, I recently got interested in cellular modules because they provide the ultimate in wireless connectivity - there are no modems and no routers required.

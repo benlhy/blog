@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/06/busstopflow.JPG"
   relative: false
   hiddenInList: false
-tags: ["Python", "Firebase", "GCP", "Firestore", "VueJS", "frontend", "backend", "javascript", "bus app"]
+tag: ["Python", "Firebase", "GCP", "Firestore", "VueJS", "frontend", "backend", "javascript", "bus app"]
 ---
 
 This is my first attempt in building a real-time web app that helps to display bus arrival times at a bus stop so that I can catch buses without waiting.

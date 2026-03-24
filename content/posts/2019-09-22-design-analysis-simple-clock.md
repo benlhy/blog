@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/09/clock.PNG"
   relative: false
   hiddenInList: false
-tags: ["clock", "design", "analysis", "simple", "teardown"]
+tag: ["clock", "design", "analysis", "simple", "teardown"]
 ---
 
 You see these clocks everywhere. They hang on walls of kitchens and offices, quietly ticking away, keeping count of the time left in the day. One of these clocks in my house recently failed so I decided to take a closer look at the inner mechanisms of a clock.

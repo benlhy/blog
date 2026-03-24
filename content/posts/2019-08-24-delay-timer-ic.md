@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/08/c005-2.png"
   relative: false
   hiddenInList: false
-tags: ["c005", "delay timer", "IC", "cheap ic", "delay", "cheap", "simple", "exploration", "2019"]
+tag: ["c005", "delay timer", "IC", "cheap ic", "delay", "cheap", "simple", "exploration", "2019"]
 ---
 
 I recently got very interested in controlling the amount of power my boards use because between transmitting data and using battery powered devices, there isn't a whole lot of energy to spare if you don't want to be tied to a wall wart.

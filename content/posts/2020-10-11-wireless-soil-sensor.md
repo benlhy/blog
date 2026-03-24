@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/10/Silabs_plant.jpg"
   relative: false
   hiddenInList: false
-tags: ["BLE", "2020", "Silicon Labs", "BG22", "Flutter", "Wireless"]
+tag: ["BLE", "2020", "Silicon Labs", "BG22", "Flutter", "Wireless"]
 ---
 
 One project that I've always been interested in implementing is a soil sensor because I frequently forget to water my plants and then compensate by flooding the pot (my poor plants). While there are a ton of soil sensors out there, I decided to implement my own with a twist of adding bluetooth functionality to it so as to have a low power node to collect data about soil conditions periodically.

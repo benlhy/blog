@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/03/manmonth_leanstartup.jpg"
   relative: false
   hiddenInList: false
-tags: ["books", "lean startup", "notes", "reading"]
+tag: ["books", "lean startup", "notes", "reading"]
 ---
 
 # Lean Startup

@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/01/myarch.jpg"
   relative: false
   hiddenInList: false
-tags: ["fix", "missing", "keys", "arch", "linux", "upgrade"]
+tag: ["fix", "missing", "keys", "arch", "linux", "upgrade"]
 ---
 
 Sometimes Arch Linux complains about missing keys, after spending a little too long Googling around, this was the solution:

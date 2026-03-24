@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/08/oscp_earned.jpg"
   relative: false
   hiddenInList: false
-tags: ["offensive security", "2022", "oscp", "passed", "exam", "security", "pentesting", "penetration testing", "course"]
+tag: ["offensive security", "2022", "oscp", "passed", "exam", "security", "pentesting", "penetration testing", "course"]
 ---
 
 On August 2022, I received an email from Offensive Security certifying that I had earned my **Offensive Security Certified Professional certificate**.

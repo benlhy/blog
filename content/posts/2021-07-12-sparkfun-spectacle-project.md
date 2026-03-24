@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/07/spectacle-logo-big-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["2021", "Sparkfun", "design", "Spectacle", "Platform"]
+tag: ["2021", "Sparkfun", "design", "Spectacle", "Platform"]
 ---
 
 What a Spectacle!

@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/07/logitech.png"
   relative: false
   hiddenInList: false
-tags: ["Keyboard", "Logitech", "MX", "K375s", "Apple USB Keyboard", "2017"]
+tag: ["Keyboard", "Logitech", "MX", "K375s", "Apple USB Keyboard", "2017"]
 ---
 
 Tldr; I liked the feel of the keys on the old Apple USB Keyboard and I replaced it with the Logitech MX Keys and I'm quite happy with it. I recommend it if you are looking for a replacement for the 2017 Apple USB Keyboard.

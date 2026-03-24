@@ -8,7 +8,7 @@ cover:
   image: "/images/2024/12/Screenshot-2024-12-14-170629.png"
   relative: false
   hiddenInList: false
-tags: ["am i safe", "2024", "malware", "kernel", "driver", "exploitation", "aswArPot.sys"]
+tag: ["am i safe", "2024", "malware", "kernel", "driver", "exploitation", "aswArPot.sys"]
 ---
 
 Imagine that one day, you wake up, start scrolling through your feed, and see this:

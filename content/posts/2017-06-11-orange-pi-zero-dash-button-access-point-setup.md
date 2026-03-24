@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/06/IMG_20170610_221247083_HDR.jpg"
   relative: false
   hiddenInList: false
-tags: ["Guides", "wifi", "Raspberry Pi", "OrangePi", "Access Point", "hostapd", "Amazon Dash", "Dash button", "IoT"]
+tag: ["Guides", "wifi", "Raspberry Pi", "OrangePi", "Access Point", "hostapd", "Amazon Dash", "Dash button", "IoT"]
 ---
 
 This is a very condensed tutorial on how to set up an OrangePi running Armbian as an access point to intercept Dash Button commands, allowing you to have wireless buttons on the cheap. This is a project that migrates the existing solution I had on my Raspberry Pi 3 to the OrangePi, which frees up my Raspberry Pi 3 for other tasks, since most of the commands are replicated, the commands are listed here in order to set up the OrangePi. This tutorial borrows very heavily from [frillip's tutorial](https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/) and the python script borrows from [Familab's tutorial](https://familab.org/2016/02/hacking-the-amazon-dash-button-to-make-a-simple-cheap-iot-place-anywhere-networked-button-3/).

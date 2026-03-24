@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/07/pca.png"
   relative: false
   hiddenInList: false
-tags: ["Google", "Certificate", "PCA", "Architect", "cloud", "Professional Cloud Architect", "case studies", "new"]
+tag: ["Google", "Certificate", "PCA", "Architect", "cloud", "Professional Cloud Architect", "case studies", "new"]
 ---
 
 I recently took the PCA and passed! It was tough but I thought it was worth it as I am better able to understand the context for Google Cloud much better.

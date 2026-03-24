@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/11/auto.JPG"
   relative: false
   hiddenInList: false
-tags: ["EAGLE", "PCB", "automatic", "part generation", "easy", "OCR", "automated", "generate device"]
+tag: ["EAGLE", "PCB", "automatic", "part generation", "easy", "OCR", "automated", "generate device"]
 ---
 
 Library creation in Eagle is often a tedious affair, which is why I avoid it as much as possible, often going out of my way to find preexisting libraries to integrate into my own *mylib.lbr.* But searching for these libraries can be hit or miss, and the quality is variable. You can get some really good libraries from Sparkfun, Adafruit, or that excellent *microbuilder.lbr*, but you might just as likely not find any parts especially if you are using an uncommon part. So what do you do? Often I trudge back to EAGLE and reluctantly start to create my  parts. I start have to overcome some activation energy before I can really get down to building the board.

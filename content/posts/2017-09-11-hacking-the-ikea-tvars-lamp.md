@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/charging.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "teardown", "maker", "two things you can do with", "ikea", "LED", "LED strip"]
+tag: ["Projects", "teardown", "maker", "two things you can do with", "ikea", "LED", "LED strip"]
 ---
 
 This is a teardown of the IKEA TVÄRS lamp and provides two small but fun projects you can do with this very versatile, very affordable lamp from IKEA: **a controllable RGB lamp** and **a lit charging station**.

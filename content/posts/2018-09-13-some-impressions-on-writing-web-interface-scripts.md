@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/09/programming.JPG"
   relative: false
   hiddenInList: false
-tags: ["Python", "script", "webserver"]
+tag: ["Python", "script", "webserver"]
 ---
 
 These are some impressions and lessons that I learned from writing a few scripts that access web-interfaces over the last few weeks.

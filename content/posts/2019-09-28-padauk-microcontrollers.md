@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/09/Padauk.PNG"
   relative: false
   hiddenInList: false
-tags: ["3 cent microcontroller", "Padauk", "Microcontroller", "cheap ic", "embedded systems", "how to use", "China", "LCSC", "Projects"]
+tag: ["3 cent microcontroller", "Padauk", "Microcontroller", "cheap ic", "embedded systems", "how to use", "China", "LCSC", "Projects"]
 ---
 
 Exploring and using the 3 cent microcontroller. Impression: A legitimate replacement for simple use-case projects.

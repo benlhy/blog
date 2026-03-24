@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/07/provingf1-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["ATMEL", "ASF", "Proving Fields", "I2C", "SPI", "Interrupts", "SAMD21", "Projects", "ST7735"]
+tag: ["ATMEL", "ASF", "Proving Fields", "I2C", "SPI", "Interrupts", "SAMD21", "Projects", "ST7735"]
 ---
 
 ### What is it?

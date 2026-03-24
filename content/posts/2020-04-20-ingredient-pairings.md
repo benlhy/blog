@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/04/d3chord.JPG"
   relative: false
   hiddenInList: false
-tags: ["d3", "javascript", "kaggle", "data science", "food", "Python"]
+tag: ["d3", "javascript", "kaggle", "data science", "food", "Python"]
 ---
 
 This is a Chord diagram made in D3 displaying the relationship between 10 most common ingredients for all the recipes on Food.com.

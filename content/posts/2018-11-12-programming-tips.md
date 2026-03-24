@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/11/python.JPG"
   relative: false
   hiddenInList: false
-tags: ["Python", "programming"]
+tag: ["Python", "programming"]
 ---
 
 This is a list of python tips and techniques that I have run across when using this language. It also serves as a quick reminder/refresher page for me. It is a mix of general python and python in Jupyter.

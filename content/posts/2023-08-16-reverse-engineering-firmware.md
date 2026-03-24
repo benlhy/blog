@@ -8,7 +8,7 @@ cover:
   image: "/images/2023/08/paint.png"
   relative: false
   hiddenInList: false
-tags: ["reverse-engineering", "2023", "IoT", "firmware", "u-boot"]
+tag: ["reverse-engineering", "2023", "IoT", "firmware", "u-boot"]
 ---
 
 I have come a full circle back to IoT products and security testing. Since my original skills were in IoT engineering, I wondered what kind of security bugs could be found in devices.

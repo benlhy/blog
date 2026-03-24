@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/06/react_vue-1.JPG"
   relative: false
   hiddenInList: false
-tags: ["React", "VueJS", "javascript", "real time app", "vs", "Projects", "bus app"]
+tag: ["React", "VueJS", "javascript", "real time app", "vs", "Projects", "bus app"]
 ---
 
 I felt it was a little [unfair to compare React and Vue](https://westsideelectronics.com/building-real-time-web-app-v2) because I had only just learned React though a course whereas for Vue, it was something that learned a few years ago and didn't have any real understanding of what Vue could offer. So I decided to take this opportunity to learn Vue in greater detail and do a comparison between the two frameworks.

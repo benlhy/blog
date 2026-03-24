@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/trimpot-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["ULCEK Tutorials", "LED", "trimpot", "Guides"]
+tag: ["ULCEK Tutorials", "LED", "trimpot", "Guides"]
 ---
 
 A trimpot is basically a resistor that you can vary the resistance of. This is useful for controlling output in an analog manner. The push switches only turn on for the length of time they are pressed.

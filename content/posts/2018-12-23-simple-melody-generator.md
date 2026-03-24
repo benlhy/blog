@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/IMG_20181222_185055_HDR.jpg"
   relative: false
   hiddenInList: false
-tags: ["simple boards", "learning soldering", "cheap ic", "salvage"]
+tag: ["simple boards", "learning soldering", "cheap ic", "salvage"]
 ---
 
 # Why is this cool?

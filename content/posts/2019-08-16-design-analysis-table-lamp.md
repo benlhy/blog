@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/08/Capture.JPG"
   relative: false
   hiddenInList: false
-tags: ["Table lamp", "design", "engineering", "mechanical", "electrical"]
+tag: ["Table lamp", "design", "engineering", "mechanical", "electrical"]
 ---
 
 # Lessons Learned

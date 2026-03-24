@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/10/solder-left-0.jpg"
   relative: false
   hiddenInList: false
-tags: ["Getting Started", "Guides"]
+tag: ["Getting Started", "Guides"]
 ---
 
 Getting started in **Electronics** is a daunting prospect, but it doesn't have to be! Today there are many starter kits that provide all you need to start doing your own project. However if you really want to get down to it, what you really need to do is to start putting together projects permanently, and this guide serves as an introduction to really getting started in Electronics.

@@ -3,7 +3,7 @@ title: "Time, counters, and other shenanigans (11)"
 date: 2016-12-11T15:51:10+00:00
 slug: "time-counters-and-other-shenanigans"
 draft: false
-tags: ["time", "DS1307", "RTC", "ULCEK Tutorials", "Guides"]
+tag: ["time", "DS1307", "RTC", "ULCEK Tutorials", "Guides"]
 ---
 
 Microcontrollers are not really good at keeping time, no really. Over long periods of days or weeks of continuous running, they start to lose seconds and minutes. That's why we have Real Time Counters (RTC) to help us keep time. They are microcontrollers as well, but their sole purpose is to help your main microcontroller keep time so that it can aspire to greater things, like an alarm clock or an automated cat-feeder.

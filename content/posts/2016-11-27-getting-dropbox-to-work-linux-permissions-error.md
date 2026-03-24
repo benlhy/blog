@@ -3,7 +3,7 @@ title: "Getting Dropbox to work (Linux permissions error)"
 date: 2016-11-27T15:25:57+00:00
 slug: "getting-dropbox-to-work-linux-permissions-error"
 draft: false
-tags: ["dropbox", "linux", "permission", "xfce", "thundar", "nautilus", "error", "Guides"]
+tag: ["dropbox", "linux", "permission", "xfce", "thundar", "nautilus", "error", "Guides"]
 ---
 
 Sometimes you might face a permissions error and reinstalling and uninstalling dropbox doesn't work.

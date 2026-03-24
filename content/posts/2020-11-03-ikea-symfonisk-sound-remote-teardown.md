@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/10/image-28-1.png"
   relative: false
   hiddenInList: false
-tags: ["teardown", "Silicon Labs", "ikea", "2020", "Wireless", "Zigbee"]
+tag: ["teardown", "Silicon Labs", "ikea", "2020", "Wireless", "Zigbee"]
 ---
 
 Another day, another teardown. Today the focus of my prying screwdriver is the Symfonisk Sound Remote from IKEA.

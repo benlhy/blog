@@ -3,7 +3,7 @@ title: "Analog circuit kit"
 date: 2016-12-07T18:06:41+00:00
 slug: "analog-circuit-kit"
 draft: false
-tags: ["ideas"]
+tag: ["ideas"]
 ---
 
 I was browsing the web the other day and I came across   [this project](https://www.flickr.com/photos/nickames/4121017825/) by Nick Ames. It is an electronics lab within an Altoids tin and how cool is that? I really like small, portable, and above all electronics projects and this seems like just an absolutely lovely way to teach people about analog circuits.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/01/lipoindicator.jpg"
   relative: false
   hiddenInList: false
-tags: ["Guides", "Charge", "Indicator", "LM3914", "Dashboard", "LED", "display", "Aliexpress"]
+tag: ["Guides", "Charge", "Indicator", "LM3914", "Dashboard", "LED", "display", "Aliexpress"]
 ---
 
 The LM3914 is a dot/bar display driver. It senses analog voltage level and drives 10 LEDs, making it suitable for use as a power indicator, and there are a number of products that use this function.

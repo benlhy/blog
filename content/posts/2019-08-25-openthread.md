@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/08/ot-icon-toprow-ot_480.png"
   relative: false
   hiddenInList: false
-tags: ["OpenThread", "Google", "5.0", "Microsoft", "BLE", "Nordic", "nRF52840", "Raspberry Pi"]
+tag: ["OpenThread", "Google", "5.0", "Microsoft", "BLE", "Nordic", "nRF52840", "Raspberry Pi"]
 ---
 
 # What is Thread?

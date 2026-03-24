@@ -8,7 +8,7 @@ cover:
   image: "/images/2017/12/soldering.png"
   relative: false
   hiddenInList: false
-tags: ["Getting Started", "Electronics"]
+tag: ["Getting Started", "Electronics"]
 ---
 
 A guide to getting started in hobby electronics in 2018.

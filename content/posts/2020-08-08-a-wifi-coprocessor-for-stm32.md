@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/08/esp-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["ESP32", "wifi", "Coprocessor", "C++", "C", "STM32", "generic", "library"]
+tag: ["ESP32", "wifi", "Coprocessor", "C++", "C", "STM32", "generic", "library"]
 ---
 
 The STM32 is a great device but you know what makes it better? The Internet! However, STM32 chips do not natively come with WiFi capabilities, relying on other modules to prove connectivity options.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/fairy.png"
   relative: false
   hiddenInList: false
-tags: ["2020", "fairy light", "teardown", "solar", "cheap", "Shiningic", "YX8628C"]
+tag: ["2020", "fairy light", "teardown", "solar", "cheap", "Shiningic", "YX8628C"]
 ---
 
 It is a fairly interesting to me that you can get a cheap (~\$6) solar powered device that controls a bunch of long fairy lights. Think about it: a battery, a solar panel, a string of LEDs, and a PCB to control it all, housed in a water resistant case for \$6. That's a lot of things for \$6.

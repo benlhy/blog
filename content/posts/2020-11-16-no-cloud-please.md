@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/server.jpg"
   relative: false
   hiddenInList: false
-tags: ["opinion", "IoT", "2020", "cloud"]
+tag: ["opinion", "IoT", "2020", "cloud"]
 ---
 
 I've come to a rule of thumb that I feel is quite useful in measuring the longevity of an IoT product: **does it require the cloud?**

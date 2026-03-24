@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/09/image1-2.jpg"
   relative: false
   hiddenInList: false
-tags: ["Getting Started", "Projects"]
+tag: ["Getting Started", "Projects"]
 ---
 
 I got started by Googling how to get started with Arduino and came across a description of the Drawdio in the post. I followed the link to the Maker website and began my project.

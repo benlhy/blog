@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/01/haha.jpg"
   relative: false
   hiddenInList: false
-tags: ["linux", "Ubuntu", "gifs", "command", "line", "GIF"]
+tag: ["linux", "Ubuntu", "gifs", "command", "line", "GIF"]
 ---
 
 Making GIFs on a Linux computer requires you to jump through a few hoops, after a few hours of experimentation, this is my solution. Of course, you can also use an online service.

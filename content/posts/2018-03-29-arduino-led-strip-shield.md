@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/03/arduinoshield1.jpg"
   relative: false
   hiddenInList: false
-tags: ["LED", "LED strip", "Arduino", "Shield", "Getting Started", "wake-up", "alarm", "RTC", "nRF24l01"]
+tag: ["LED", "LED strip", "Arduino", "Shield", "Getting Started", "wake-up", "alarm", "RTC", "nRF24l01"]
 ---
 
 Ah the amazing LED strip. I've used it to build so many fun projects, from the [Sunrise Morning Alarm](https://westsideelectronics.com/sunrise-alarm-clock/). This can probably be seen as the next level of development in my projects. I wanted something that could be used easily to connect to LED strips to power and animate them, and a couple of other components that I usually would like to have in my LED projects, such as a radio and a real-time clock (RTC).

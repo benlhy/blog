@@ -8,7 +8,7 @@ cover:
   image: "/images/2024/03/corelan_heap-2.png"
   relative: false
   hiddenInList: false
-tags: ["Corelan", "cyber security", "exploitation", "training", "review", "masterclass", "SINCON", "2024", "heap", "cyber", "offensive security"]
+tag: ["Corelan", "cyber security", "exploitation", "training", "review", "masterclass", "SINCON", "2024", "heap", "cyber", "offensive security"]
 ---
 
 I attended the Corelan Heap Exploit Development Masterclass organised by SINCON/Div0 in Singapore in March 2024.

@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/03/tm4c-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["TM4C", "TI", "Robot", "car", "autonomous"]
+tag: ["TM4C", "TI", "Robot", "car", "autonomous"]
 ---
 
 Spring! A great time to get started on new projects, now that I won't actually freeze the moment I step outside, I can also start embarking on outdoors projects.

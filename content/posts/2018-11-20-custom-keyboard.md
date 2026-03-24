@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/11/customkeyboard.JPG"
   relative: false
   hiddenInList: false
-tags: ["Keyboard", "Cherry Mx", "Adafruit", "Itsy Bitsy", "Python", "custom"]
+tag: ["Keyboard", "Cherry Mx", "Adafruit", "Itsy Bitsy", "Python", "custom"]
 ---
 
 This was a quick and simple build. I wanted to play around with some Cherry MX keys, the ones used on gaming keyboards, and I decided the best application would be to customize each key press on my tiny keyboard to register as a series of strokes. The microcontroller here used is the Itsy Bitsy from Adafruit, currently the cheapest, and the best implementation of an easily accessible microcontroller on the market. Programming is done via python, and this microcontroller emulates a keyboard, so when I depress a button on my tiny keyboard, the microcontroller actually sends a pre-set number of keystrokes (as if I was typing really quickly on an external keyboard) to the computer.

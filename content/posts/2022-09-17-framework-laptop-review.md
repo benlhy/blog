@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/09/framework.png"
   relative: false
   hiddenInList: false
-tags: ["framework", "laptop", "2022"]
+tag: ["framework", "laptop", "2022"]
 ---
 
 My impressions of the Framework Laptop are shaped by my two most recently owned latops, the X1 Carbon and the Macbook Air M1.

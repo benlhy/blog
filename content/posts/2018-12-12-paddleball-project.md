@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/paddle.jpg"
   relative: false
   hiddenInList: false
-tags: ["Mathematica", "Physics", "Machine", "Dynamics"]
+tag: ["Mathematica", "Physics", "Machine", "Dynamics"]
 ---
 
 This was a final project for a class in Machine Dynamics. The objective was to design a project that showcased all that we learned throughout the quarter. I decided to model a paddle-ball that utilized a strange sort of ball: a triangular ball. However, this would introduce some interesting behavior upon collision. The spring was also made discontinuous, so that only beyond a certain length would there be a spring constant, under this length, the spring acts like a string.

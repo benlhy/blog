@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/front_pcb-1.JPG"
   relative: false
   hiddenInList: false
-tags: ["chicago", "2020", "ESP32", "display", "CTA"]
+tag: ["chicago", "2020", "ESP32", "display", "CTA"]
 ---
 
 Months ago I came across this project: [Traintrackr](https://www.traintrackr.co.uk/product/tfl1). It gives you a live view of where the trains are arriving in each station.

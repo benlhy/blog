@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/12/Untitled.png"
   relative: false
   hiddenInList: false
-tags: ["$0.03", "3 cent microcontroller", "2022", "Mini-C", "Touch", "programming", "Padauk", "low power"]
+tag: ["$0.03", "3 cent microcontroller", "2022", "Mini-C", "Touch", "programming", "Padauk", "low power"]
 ---
 
 After modding my headphones, I realized that the touch capacitance was not as sensitive as I required it to be. Because of the tight timing requirements to detect if a touch is present, small changes in the environment can result in large changes in the detected delay.

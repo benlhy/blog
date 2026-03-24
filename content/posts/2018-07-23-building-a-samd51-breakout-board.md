@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/07/samd51_2.jpg"
   relative: false
   hiddenInList: false
-tags: ["SAMD51", "Breakout"]
+tag: ["SAMD51", "Breakout"]
 ---
 
 The SAMD51 is a next step up from the SAMD21, a popular series of chips that have been used for various boards. It has more memory, more space, and is a more advanced chip.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/soil_analog_sensor.jpg"
   relative: false
   hiddenInList: false
-tags: ["soil sensor", "analog", "BG22", "Silicon Labs", "2020", "3 cent microcontroller", "555 timer", "ADC"]
+tag: ["soil sensor", "analog", "BG22", "Silicon Labs", "2020", "3 cent microcontroller", "555 timer", "ADC"]
 ---
 
 I often get asked: "Ben, that soil sensor you used is too complex! I$^2$C for some capacitive sensing? Have you thought about using something cheaper?"

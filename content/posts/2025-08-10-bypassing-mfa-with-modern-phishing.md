@@ -8,7 +8,7 @@ cover:
   image: "/images/2025/04/ChatGPT-Image-Apr-9--2025--07_54_34-PM.png"
   relative: false
   hiddenInList: false
-tags: ["2025", "MFA", "Phishing", "Evilginx"]
+tag: ["2025", "MFA", "Phishing", "Evilginx"]
 ---
 
 The process of red teaming consists of many aspects and after exploring the technicals of malware (although I'm still continuing to explore!), I thought exploring the ingress point would be interesting.

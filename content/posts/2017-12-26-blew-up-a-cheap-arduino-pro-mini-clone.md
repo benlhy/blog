@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/blownarduino-2.JPG"
   relative: false
   hiddenInList: false
-tags: ["smoke", "Arduino", "clone", "mini", "pro"]
+tag: ["smoke", "Arduino", "clone", "mini", "pro"]
 ---
 
 Tl;dr, don't power Arduino Pro Mini Clones with 12V. You will see smoke.

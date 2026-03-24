@@ -8,7 +8,7 @@ cover:
   image: "/images/2022/06/scaleway.png"
   relative: false
   hiddenInList: false
-tags: ["scaleway", "cloud", "hetzner", "pricing"]
+tag: ["scaleway", "cloud", "hetzner", "pricing"]
 ---
 
 I've posted about Scaleway multiple times raising their prices and big surprise they have done it again.

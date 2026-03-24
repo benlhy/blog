@@ -3,7 +3,7 @@ title: "Just pile it on (More LEDs) (12)"
 date: 2016-12-13T22:05:45+00:00
 slug: "just-pile-it-on-12"
 draft: false
-tags: ["ULCEK Tutorials", "shift register", "many LEDs", "LED", "595 chip", "Guides"]
+tag: ["ULCEK Tutorials", "shift register", "many LEDs", "LED", "595 chip", "Guides"]
 ---
 
 It starts to get messy if you want to add more than 3 LEDs to your project because each LED requires a pin. While there are one wire protocols that make this a much simpiler task, what if you really really wanted LEDs in your project?

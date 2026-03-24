@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/01/yellowerror.png"
   relative: false
   hiddenInList: false
-tags: ["error", "Arduino", "invalid", "sizeof", "nRF24l01", "Radiohead", "struct", "sending", "radio"]
+tag: ["error", "Arduino", "invalid", "sizeof", "nRF24l01", "Radiohead", "struct", "sending", "radio"]
 ---
 
 This error was frustrating to fix but turned out it was a teensy tiny error of my own.

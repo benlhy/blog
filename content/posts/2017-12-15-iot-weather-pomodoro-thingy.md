@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/12/IMG_20171211_212251-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "pomodoro", "esp8266"]
+tag: ["Projects", "pomodoro", "esp8266"]
 ---
 
 A little desk thingy that can report the weather outside and serve as a Pomodoro timer. I call it the Able Stable.

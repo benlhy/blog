@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/11/PXL_20210907_224548975.jpg"
   relative: false
   hiddenInList: false
-tags: ["2021", "kicad", "EFM8", "Silicon Labs", "BLE", "JDY-08", "C", "Flutter", "Android", "analog", "JDY-23", "Arduino"]
+tag: ["2021", "kicad", "EFM8", "Silicon Labs", "BLE", "JDY-08", "C", "Flutter", "Android", "analog", "JDY-23", "Arduino"]
 ---
 
 *How I built a great tool for IoT prototyping: a self-powered, wireless measurement device that measures voltage and current.*

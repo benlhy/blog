@@ -8,7 +8,7 @@ cover:
   image: "/images/2017/04/IMG_20170331_125745-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "BreatheDot"]
+tag: ["Projects", "BreatheDot"]
 ---
 
 Calm down, refresh, and focus with this little tool. A [Hackaday Prize Finalist](https://hackaday.com/2017/05/08/these-twenty-designs-just-won-1000-in-the-hackaday-prize/)!

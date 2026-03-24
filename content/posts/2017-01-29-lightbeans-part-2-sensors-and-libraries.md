@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/01/light_senor.jpg"
   relative: false
   hiddenInList: false
-tags: ["lightbeans"]
+tag: ["lightbeans"]
 ---
 
 Often when we build devices we want them to react to the external environment. This means we have to implement some sort of sensor to detect the changes.

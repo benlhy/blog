@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/03/stellrweb-djb1whucfBY-unsplash.jpg"
   relative: false
   hiddenInList: false
-tags: ["budgeting", "Google", "javascript", "automated", "personal finance", "Projects"]
+tag: ["budgeting", "Google", "javascript", "automated", "personal finance", "Projects"]
 ---
 
 Budgeting is useful for me to take note of how much I spend a month. If I had to estimate how much I spend, I can be off the actual amount by as much as half.

@@ -7,7 +7,7 @@ cover:
   image: "/images/2016/11/light_senor-1.jpg"
   relative: false
   hiddenInList: false
-tags: ["ULCEK Tutorials", "rgb", "LED", "Guides"]
+tag: ["ULCEK Tutorials", "rgb", "LED", "Guides"]
 ---
 
 In your package you might have a tiny white chip with three wires sticking out of it. This is a 5050 LED IC. What this chip does is that it combines three small but bright LEDs into a neat little package and by using some clever signalling, these LEDs can be made to shine at any level of brightness you desire and generating any color you want within the spectrum.

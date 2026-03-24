@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/09/template-1--1.jpg"
   relative: false
   hiddenInList: false
-tags: ["2021", "cheap", "computer", "laptop", "refurbish", "Lenovo", "Thinkpad", "X1", "Carbon", "low-cost", "easy", "less than $300", "price"]
+tag: ["2021", "cheap", "computer", "laptop", "refurbish", "Lenovo", "Thinkpad", "X1", "Carbon", "low-cost", "easy", "less than $300", "price"]
 ---
 
 *Why spend \$300 to \$500 on a mediocre, mid-range laptop or desktop when you can have a highly portable, powerful Windows machine? Whether it is looking for yourself or for a loved one, consider a used Thinkpad. They regularly come onto the used market for cheap as companies renew their stock of Thinkpads, and they offer a very good price to performance ratio. Because they are older, you can also find old and used peripherals to trick out the Thinkpad for a song.*

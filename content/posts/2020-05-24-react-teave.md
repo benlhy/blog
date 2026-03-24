@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/05/react-teave-1.JPG"
   relative: false
   hiddenInList: false
-tags: ["tea", "React", "programming"]
+tag: ["tea", "React", "programming"]
 ---
 
 TLDR; I made a website that allows you to return search results of teas that are tailored to a specific mix of your preferences. Check it out at [React-Teave](github.io/benlhy/react-teave).

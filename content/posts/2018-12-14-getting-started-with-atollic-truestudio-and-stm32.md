@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/IMG_20181224_090358_HDR.jpg"
   relative: false
   hiddenInList: false
-tags: ["STM32", "Getting Started", "Atollic", "ST Microelectronics"]
+tag: ["STM32", "Getting Started", "Atollic", "ST Microelectronics"]
 ---
 
 > Tldr; I really like the STM32 and you should definitely give it a whirl.

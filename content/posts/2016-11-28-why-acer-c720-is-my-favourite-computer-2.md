@@ -3,7 +3,7 @@ title: "Acer C720 is my favourite computer"
 date: 2016-11-28T17:01:44+00:00
 slug: "why-acer-c720-is-my-favourite-computer-2"
 draft: false
-tags: ["linux", "Chromebook", "upgrade", "Crouton", "C720", "Acer"]
+tag: ["linux", "Chromebook", "upgrade", "Crouton", "C720", "Acer"]
 ---
 
 I spend a lot of time with my computer, and it goes with me wherever I go. After having the privilege of testing out a number of different computers, I have come down to a few considerations:

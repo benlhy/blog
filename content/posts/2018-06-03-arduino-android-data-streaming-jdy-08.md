@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/06/jyd08.jpg"
   relative: false
   hiddenInList: false
-tags: ["Arduino", "Android", "JDY-08", "BLE", "transparent", "mode", "HM-11", "Projects"]
+tag: ["Arduino", "Android", "JDY-08", "BLE", "transparent", "mode", "HM-11", "Projects"]
 ---
 
 The JDY-08 is a tiny Bluetooth module that is really cheap and comes with everything on board. It is a easy and quick addition to existing Arduino projects to give them a little wireless magic. It is better than the HM-11/HC-05 boards because it uses BLE, which has lower energy consumption, takes up less space, and is still able to stream data transparently.

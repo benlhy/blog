@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/06/gcp-1.png"
   relative: false
   hiddenInList: false
-tags: ["GCP", "Google", "2021", "cloud", "Associate Cloud Engineer"]
+tag: ["GCP", "Google", "2021", "cloud", "Associate Cloud Engineer"]
 ---
 
 I recently passed my Google Cloud ACE examination!

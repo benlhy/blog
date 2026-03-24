@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/11/IMG_20181121_235803.jpg"
   relative: false
   hiddenInList: false
-tags: ["CircuitPython", "MCP3422", "ADC", "precise", "measurement", "Github"]
+tag: ["CircuitPython", "MCP3422", "ADC", "precise", "measurement", "Github"]
 ---
 
 ## Why is this project cool?

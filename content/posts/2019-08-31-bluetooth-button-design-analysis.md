@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/08/IMG_20190830_182153.jpg"
   relative: false
   hiddenInList: false
-tags: ["Bluetooth", "design", "Button", "ST17H25", "Low Cost", "teardown", "iTag"]
+tag: ["Bluetooth", "design", "Button", "ST17H25", "Low Cost", "teardown", "iTag"]
 ---
 
 Recently I got my hands on an intriguing device. It was described to me as a Bluetooth Button, but I couldn't figure out how it worked because no instructions were provided. It was given out at an event, which meant that this was quite a low cost device. I decided to take it apart for analysis.

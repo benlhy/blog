@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/12/header.JPG"
   relative: false
   hiddenInList: false
-tags: ["Padauk", "2021", "teardown", "DC motor", "printer", "repurpose", "upcycle", "$0.03", "nScope"]
+tag: ["Padauk", "2021", "teardown", "DC motor", "printer", "repurpose", "upcycle", "$0.03", "nScope"]
 ---
 
 The most salvagable part of A DC motor typically just spins when you apply voltage to it. But when you carefully control that voltage, and have access to an encoder attached to the motor, you can add some intelligence to the motor and do some very interesting things with it: like making it go to a precise position.

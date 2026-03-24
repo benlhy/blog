@@ -8,7 +8,7 @@ cover:
   image: "/images/2018/12/IMG_20181217_220308_HDR.jpg"
   relative: false
   hiddenInList: false
-tags: ["Silicon Labs", "EFM8", "8bit", "8051", "Laser Bee", "Microcontroller"]
+tag: ["Silicon Labs", "EFM8", "8bit", "8051", "Laser Bee", "Microcontroller"]
 ---
 
 # Why is this cool?

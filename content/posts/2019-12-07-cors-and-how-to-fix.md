@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/12/cors.png"
   relative: false
   hiddenInList: false
-tags: ["api", "webserver", "javascript"]
+tag: ["api", "webserver", "javascript"]
 ---
 
 Ever come across this situation? You want to pull an HTTP API into service on your website. You test it happily on your local machine with Python or Postman, but then when you convert the code into javascript and try to use it in the browser... boom. You get hit with error messages that look like this:

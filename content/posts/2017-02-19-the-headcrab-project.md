@@ -7,7 +7,7 @@ cover:
   image: "/images/2017/02/headcrab-2.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "digispark"]
+tag: ["Projects", "digispark"]
 ---
 
 So, this week I managed to get my hands on one of these (recycled):

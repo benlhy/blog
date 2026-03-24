@@ -3,7 +3,7 @@ title: "Progress Report on ULCEK, the second"
 date: 2017-01-23T13:31:49+00:00
 slug: "progress-report-on-ulcek-the-second"
 draft: false
-tags: ["report", "ulcek"]
+tag: ["report", "ulcek"]
 ---
 
 Some shipping updates, mainly for myself, and some changes to the kit structure.

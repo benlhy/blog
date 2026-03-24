@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/rustacean-flat-happy.png"
   relative: false
   hiddenInList: false
-tags: ["opinion", "Rust", "2020", "Microcontroller", "STM32", "Silicon Labs", "Bluetooth", "C++", "C"]
+tag: ["opinion", "Rust", "2020", "Microcontroller", "STM32", "Silicon Labs", "Bluetooth", "C++", "C"]
 ---
 
 Yet.

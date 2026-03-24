@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/11/battery2.JPG"
   relative: false
   hiddenInList: false
-tags: ["BG22", "Silicon Labs", "2020", "Bluetooth", "BLE", "low power"]
+tag: ["BG22", "Silicon Labs", "2020", "Bluetooth", "BLE", "low power"]
 ---
 
 When a company claims that I can get 1uA power consumption in a standby state for a wireless device, I have to test that claim.

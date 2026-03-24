@@ -8,7 +8,7 @@ cover:
   image: "/images/2017/05/m0top3.jpg"
   relative: false
   hiddenInList: false
-tags: ["Projects", "SAMD21", "Breakout", "Arduino"]
+tag: ["Projects", "SAMD21", "Breakout", "Arduino"]
 ---
 
 Chronicling my adventures of making and remixing various boards with the marvelous SAMD21 M0+ chip in all it's various incarnations.

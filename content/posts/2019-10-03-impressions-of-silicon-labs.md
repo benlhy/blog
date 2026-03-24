@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/03/EFM8.jpg"
   relative: false
   hiddenInList: false
-tags: ["EFM8", "Silicon Labs", "review", "Getting Started"]
+tag: ["EFM8", "Silicon Labs", "review", "Getting Started"]
 ---
 
 Silicon Labs offers a series of 8-bit microcontrollers that specifically target certain use cases. They come with excellent documentation and a breathtaking amount of example code to get every feature and aspect of the microcontroller working. When you combine this with an affordable J-Link enabled development board and a gorgeous, cross-platform, Eclipse-based IDE, you practically have your next project built.

@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/12/Screenshot-2021-12-23-at-3.42.45-PM.png"
   relative: false
   hiddenInList: false
-tags: ["3 cent microcontroller", "$0.03", "cent", "Microcontroller", "Padauk", "3 cent", "cheap", "rotary", "encoder", "Mini-C"]
+tag: ["3 cent microcontroller", "$0.03", "cent", "Microcontroller", "Padauk", "3 cent", "cheap", "rotary", "encoder", "Mini-C"]
 ---
 
 Even in the world of microcontrollers, a $0.03 microcontroller in single units is an oddity. It is *very cheap*. The cheapest microcontrollers you can find in single units among online distributors like Digikey or Mouser are in the region of $1. To push it below the $1 mark, your order usually has to be in the thousands. Putting it into perspective, it is a no-name smartphone for $6 in a world of $600 smartphones.

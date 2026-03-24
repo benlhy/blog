@@ -7,7 +7,7 @@ cover:
   image: "/images/2018/01/pointer.jpg"
   relative: false
   hiddenInList: false
-tags: ["Arduino", "ULCEK Tutorials", "float", "int", "pointers", "Guides"]
+tag: ["Arduino", "ULCEK Tutorials", "float", "int", "pointers", "Guides"]
 ---
 
 When programming in Arduino, you might have occasion to go beyond the standard datatypes of `int` and `String`.

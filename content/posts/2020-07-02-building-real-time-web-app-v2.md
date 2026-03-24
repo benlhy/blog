@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/06/busstopflowV2.jpg"
   relative: false
   hiddenInList: false
-tags: ["javascript", "React", "Projects", "bus app"]
+tag: ["javascript", "React", "Projects", "bus app"]
 ---
 
 See the app: [https://bustime.neocities.org/](https://bustime.neocities.org/)

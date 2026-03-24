@@ -8,7 +8,7 @@ cover:
   image: "/images/2020/05/fem2.JPG"
   relative: false
   hiddenInList: false
-tags: ["Frontend Masters", "MOOC", "course", "learning", "online", "frontend", "javascript", "development", "review", "React", "Python"]
+tag: ["Frontend Masters", "MOOC", "course", "learning", "online", "frontend", "javascript", "development", "review", "React", "Python"]
 ---
 
 Frontend Masters is a website that offers video courses for front end engineering. Their courses specialize in development and technologies for the frontend, like webpages, HTML, JavaScript, React, and many others.

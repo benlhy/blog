@@ -8,7 +8,7 @@ cover:
   image: "/images/2023/03/1-sandstone-black.png"
   relative: false
   hiddenInList: false
-tags: ["oneplus", "fastboot", "Android", "error", "Windows", "fix", "magisk", "root"]
+tag: ["oneplus", "fastboot", "Android", "error", "Windows", "fix", "magisk", "root"]
 ---
 
 I own a second-hand OnePlus One and it is one of my favorite devices for Android development: ample RAM, a beautiful screen, light, and easy to grip. I use it as a testbed for Android and recently I had to flash Magisk on it.

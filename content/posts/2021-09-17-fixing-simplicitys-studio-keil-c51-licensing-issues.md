@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/09/sl-logo-blue-code_png_project-main.jpg"
   relative: false
   hiddenInList: false
-tags: ["Silicon Labs", "2021", "Simplicity Studio", "KEIL", "C51", "License", "Errors", "fix", "code"]
+tag: ["Silicon Labs", "2021", "Simplicity Studio", "KEIL", "C51", "License", "Errors", "fix", "code"]
 ---
 
 I recently ran into an issue where my code stopped compiling after I added a few new features. After some digging, I realized that KEIL was complaining that the evaluation license that I was using was not valid because the CID code no longer matched, and the code was too big for the evaluation license.

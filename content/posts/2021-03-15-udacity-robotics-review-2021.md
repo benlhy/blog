@@ -8,7 +8,7 @@ cover:
   image: "/images/2021/03/udacity-logo-1.png"
   relative: false
   hiddenInList: false
-tags: ["review", "online", "learning", "Udacity", "Robot", "ROS", "2021"]
+tag: ["review", "online", "learning", "Udacity", "Robot", "ROS", "2021"]
 ---
 
 **Great for busy professionals, pass otherwise.**

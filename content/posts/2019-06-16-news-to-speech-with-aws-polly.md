@@ -8,7 +8,7 @@ cover:
   image: "/images/2019/06/polly.JPG"
   relative: false
   hiddenInList: false
-tags: ["aws", "text to speech", "Polly", "utf-8", "news", "read", "listen", "audiobooks", "decoding"]
+tag: ["aws", "text to speech", "Polly", "utf-8", "news", "read", "listen", "audiobooks", "decoding"]
 ---
 
 I love audiobooks. They allow me to enjoy books while allowing me to other tasks. However, audio content is not always available. Small snippets of news or articles are great for listening to as they don't require much attention, but because of their transient nature, they are very rarely available in audio form. This could also benefit those who might find articles too tiring to read because of the screen or other issues that prevents them from reading digital content.
