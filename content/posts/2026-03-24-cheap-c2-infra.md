@@ -13,7 +13,9 @@ The first order of business is to secure access to my C2 infra. Assuming that I 
 
 I could use Tailscale, but I wanted a more private solution. I decided to run an external WireGuard node on a VPS.
 
-![[images/Pasted image 20260324162240.png]]
+![](/images/initial-wg.png)
+
+
 There were a few reasons why I wanted to run an external VPN server to access my infra:
 1. Minimal exposure of on-prem ports and IP. Running it on-prem would mean that I would need to expose a listening port on my on-prem hardware.
 2. I wanted to remotely administer my services.
