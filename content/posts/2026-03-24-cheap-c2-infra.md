@@ -8,6 +8,8 @@ I recently finished the CRTO course, and it got me very interested in building r
 
 I'm not an expert in setting up C2 infra, and I'm sure others have way more sophisticated setups than mine, but this is how I've chosen to set up my infra.
 
+Tldr: this also includes how I decided to set up the on-prem infra which I thought was sufficiently interesting.
+
 # Starting with on-prem
 The first order of business is to secure access to my C2 infra. Assuming that I run it on an on-prem (read: Raspberry Pi) server, that means that I would need a VPN to access it.
 
@@ -56,4 +58,20 @@ However, I realised this defeated the cost-efficiency purpose of an ephemeral se
 
 Dynamic DNS works by having a domain (or subdomain) name resolve to an IP that you control. The idea is that the server would update the DNS entry when it receives its IPv4 IP address allocation. Clients would then query this DNS entry for the new IP address of the server to connect to. Duck DNS provides a free DDNS service.
 
+![](/images/Screenshot%202026-03-19%20100328.png)
+
+It is simple enough, sign up using an account, you're given a token that you can use to update the IP of a DNS address that you choose.
+
+The theory is that I can stuff in an update call in the WireGuard server when it is being spun up to update the DNS entry, which would allow clients to know where the new server was.
+
+![](/images/Pasted%20image%2020260324200842.png)
+
+## then it was time for problem 2
+> **Long lived WireGuard clients only resolve their DNS once.**
+
+Honestly this wasn't a problem if I only occasionally connected with my remote client. Each time I turned it on, it would resolve the DNS correctly.
+
+The problem with DDNS is that WireGuard clients only resolve their DNS once upon connecting with a domain name. This is a problem if the server resets its IP after a long-lived client has connected.
+
+Luckily, WireGuard has already anticipated this use-case and provided a script: `reresolve-dns.sh`
 
