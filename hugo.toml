@@ -15,3 +15,11 @@ theme = 'PaperMod'
 [params.cover]
   hiddenInList = false
   responsiveImages = false
+
+[[module.mounts]]
+  source = "images"
+  target = "static/images"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
