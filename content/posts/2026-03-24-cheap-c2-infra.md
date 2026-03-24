@@ -36,13 +36,24 @@ So remote access: gone. Can't force open a door when the door is never installed
 3. More secure VPN server. Now only the listening port is the UDP port required for initial WireGuard connections is required to be open.
 4. Cheaper. The VPN can be spun up as required and spun down when not.
 
-And I immediately ran into problem 1:
+## I immediately ran into problem 1:
 
->Constantly recreating servers means that the IP is not fixed. How will clients know which IP to connect to?
+>**Constantly recreating servers means that the IP is not fixed. How will clients know which IP to connect to?**
 
-I initially tried buying a fixed IP, and it took a few networking shenanigans before I was able to allocate the fixed IP consistently to the VPS and route WireGuard traffic through it. However, I realised this defeated the cost-efficiency purpose of an ephemeral server because I would have to pay to upkeep the fixed IP.
+## fixed ip?
 
-So I looked around for a cheaper method: Dynamic DNS.
+I initially tried buying a fixed IP, and it took a few networking shenanigans before I was able to allocate the fixed IP consistently to the VPS and route WireGuard traffic through it. 
+
+This can be configured by updating the iptables as following:
+
+```
+add ip tables here
+```
+
+However, I realised this defeated the cost-efficiency purpose of an ephemeral server because I would have to pay to upkeep the fixed IP.
+
+## And so I discovered Dynamic DNS
 
 Dynamic DNS works by having a domain (or subdomain) name resolve to an IP that you control. The idea is that the server would update the DNS entry when it receives its IPv4 IP address allocation. Clients would then query this DNS entry for the new IP address of the server to connect to. Duck DNS provides a free DDNS service.
+
 

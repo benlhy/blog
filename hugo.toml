@@ -2,7 +2,13 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Benjamen Lim'
 theme = 'PaperMod'
-staticDir = ["static", "images"]
+[module]
+  [[module.mounts]]
+    source = "images"
+    target = "static/images"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
 
 [params]
   ShowReadingTime = true
