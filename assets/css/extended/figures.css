@@ -1,0 +1,24 @@
+/* ── Figure captions ─────────────────────────────────────────────────────── */
+
+.post-content figure {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.post-content figure img {
+  margin: 0 auto;
+  display: block;
+}
+
+.post-content figcaption {
+  margin-top: 0.5em;
+  font-size: 0.82rem;
+  color: var(--secondary, #718096);
+  font-style: italic;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.dark .post-content figcaption {
+  color: var(--secondary, #a0aec0);
+}

@@ -1,0 +1,17 @@
+baseURL = 'https://benjamenlim.com'
+languageCode = 'en-us'
+title = 'Benjamen Lim'
+theme = 'PaperMod'
+
+[params]
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowThumbnailOnList = true
+
+[taxonomies]
+  tag = 'tags'
+
+[params.cover]
+  hiddenInList = false
+  responsiveImages = false
