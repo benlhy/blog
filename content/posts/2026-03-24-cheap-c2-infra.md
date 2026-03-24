@@ -1,7 +1,7 @@
 ---
 title: Cheap C2 Infra
 date: 2026-03-24T16:16:07+08:00
-draft: true
+draft: false
 tag:
   - offensive security
   - c2
