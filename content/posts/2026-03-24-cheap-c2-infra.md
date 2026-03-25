@@ -39,17 +39,16 @@ With cloud-init and my cloud provider being able to spin up a VPS under 30 secon
 The reason why option 2 is appealing is that:
 1. it ensures that I have fixed configuration and not a fragile one that is tied to any particular server 
 2. it ensures that the server is patched to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
-3. No remote access is needed due to the above 2
+3. **No remote access is needed** due to the above 2
 
 Now point 3 is important because this node will be the one exposed to the public internet, so I would like minimum surface exposure.
 
-Remote access: gone. Can't force open a door when the door is never installed in the first place. :)
+Remote access: gone. Can't force open a door when the door is never installed in the first place. :) This also creates a few other benefits:
 
-3. More secure VPN server. Now only the listening port is the UDP port required for initial WireGuard connections is required to be open.
-4. Cheaper. The VPN can be spun up as required and spun down when not.
+1. **A more secure VPN server.** Now only the listening port is the UDP port required for initial WireGuard connections is required to be open.
+2. **Cheaper.** The VPN can be spun up as required and spun down when not.
 
-## I immediately ran into problem 1:
-
+## I immediately ran into problem 1
 >**Constantly recreating servers means that the IP is not fixed. How will clients know which IP to connect to?**
 
 ## fixed ip?
@@ -62,7 +61,7 @@ This can be configured by updating the iptables as following:
 add ip tables here
 ```
 
-However, I realised this defeated the cost-efficiency purpose of an ephemeral server because I would have to pay to upkeep the fixed IP.
+However, I realised this defeated the cost-efficiency purpose of an ephemeral server because I would have to pay to keep the fixed IP.
 
 ## And so I discovered Dynamic DNS
 
@@ -72,7 +71,7 @@ Dynamic DNS works by having a domain (or subdomain) name resolve to an IP that y
 
 It is simple enough, sign up using an account, you're given a token that you can use to update the IP of a DNS address that you choose.
 
-The theory is that I can stuff in an update call in the WireGuard server when it is being spun up to update the DNS entry, which would allow clients to know where the new server was.
+The theory is that I can add an update call into the cloud-init config of the WireGuard server when it is being spun up to update the DNS entry, which would allow clients to know the IP address of the new server.
 
 ![](/images/Pasted%20image%2020260324200842.png)
 
@@ -81,7 +80,7 @@ The theory is that I can stuff in an update call in the WireGuard server when it
 
 Honestly this wasn't a problem if I only occasionally connected with my remote client. Each time I turned it on, it would resolve the DNS correctly.
 
-The problem with DDNS is that WireGuard clients only resolve their DNS once upon connecting with a domain name. This is a problem if the server resets its IP after a long-lived client has connected.
+The problem with DDNS is that WireGuard clients only resolve their DNS once upon connecting with a domain name. This is a problem if the server resets its IP *after* a long-lived client has connected.
 
 Luckily, WireGuard has already anticipated this use-case and provided a script: `reresolve-dns.sh`
 
@@ -113,12 +112,10 @@ sudo crontab -e
 ## Now for the C2 infra
 Assuming that I use HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
 
-While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server is a little close to home, and besides, I didn't want to get another warning letter from my service provider.
-
-And it also violates our earlier principle of minimising the services we are running on the server.
+While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server with being the redirector is a little close to home, and besides, I didn't want to get another warning email from my service provider, or worse, a termination letter.
 
 ## Cloudflare, would you tunnel this for me?
-Cloudflare tunnels have been out for awhile now, and are mainly used for their Zero Trust services. But an interesting property is that Cloudflare tunnels have the capability to route internal resources to Cloudflare resources without exposing your resources to the internet, essentially creating a mini hybrid VPC of cloud and on-prem resources.
+Cloudflare tunnels have been out for awhile now and are mainly used for their Zero Trust services. One interesting property I discovered is that Cloudflare tunnels have the capability to route on-prem resources to internal Cloudflare resources without exposing your resources to the internet, essentially creating a mini hybrid VPC of cloud and on-prem resources.
 
 {{< bookmark
   url="https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/"
@@ -129,7 +126,7 @@ Cloudflare tunnels have been out for awhile now, and are mainly used for their Z
   site="Cloudflare Docs"
 >}}
 
-This creates the first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra.
+This creates the first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra as we are not exposing any ports on our VPN hop.
 
 ![](/images/Pasted%20image%2020260324210618.png)
 
