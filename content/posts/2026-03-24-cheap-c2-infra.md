@@ -4,7 +4,7 @@ date: 2026-03-24T16:16:07+08:00
 draft: false
 tag: ["offensive security", "c2", "red team", "infra", "2026", "CRTO"]
 cover:
-  image: /images/2026/Pasted%20image%2020260325135044.png
+  image: /images/2026/map.png
   relative: false
   hiddenInList: false
 ---
@@ -41,9 +41,9 @@ The reason why option 2 is appealing is that:
 2. it ensures that the server is patched to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
 3. No remote access is needed due to the above 2
 
-Now point 3 is important because 
+Now point 3 is important because this node will be the one exposed to the public internet, so I would like minimum surface exposure.
 
-So remote access: gone. Can't force open a door when the door is never installed in the first place.
+Remote access: gone. Can't force open a door when the door is never installed in the first place. :)
 
 3. More secure VPN server. Now only the listening port is the UDP port required for initial WireGuard connections is required to be open.
 4. Cheaper. The VPN can be spun up as required and spun down when not.
