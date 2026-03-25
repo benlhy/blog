@@ -2,39 +2,36 @@
 title: Cheap C2 Infra
 date: 2026-03-24T16:16:07+08:00
 draft: false
-tag:
-  - offensive security
-  - c2
-  - infra
-  - "2026"
+tag: ["offensive security", "c2", "red team", "infra", "2026", "CRTO"]
 cover:
-  image: /images/2025/12/Gemini_Generated_Image_2kj3ap2kj3ap2kj3.png
+  image: /images/2026/Pasted%20image%2020260325135044.png
   relative: false
   hiddenInList: false
 ---
-I recently finished the CRTO course, and it got me very interested in building red team infrastructure. This interest also came from an instance when I was warned by my very nice VPS provider that running C2 infrastructure was not allowed on their infrastructure.
+I recently finished the CRTO course (which is extremely great value) and it got me very interested in building red team infrastructure. This interest also comes from an incident where my very nice VPS provider sent me a very polite but firm email that running C2 infrastructure was not allowed on their infrastructure.
 
 I'm not an expert in setting up C2 infra, and I'm sure others have way more sophisticated setups than mine, but this is how I've chosen to set up my infra.
 
-Tldr: this also includes how I decided to set up the connectivity to the on-prem infra which I thought was sufficiently interesting to include. If you are interested in how I set up the C2 portion only, then feel free to skip the first half to the Cloudflare portion.
+BTW: this also includes how I decided to set up my connectivity to the on-prem infra which I thought was sufficiently interesting. If you are interested in how I set up the C2 portion only, then feel free to skip the first half to the Cloudflare portion.
 
 # Starting with on-prem
+I wanted to own the hardware running the C2 as keeping a server running 24/7 adds up costs, especially if it is only for my own learning.
+
 The first order of business is to secure access to my C2 infra. Assuming that I run it on an on-prem (read: Raspberry Pi) server, that means that I would need a VPN to access it if I wanted to access it from outside the network.
 
 I'm  could use Tailscale, but I wanted a more private solution. I decided to run an external WireGuard node on a VPS.
 
 ![](/images/initial-wg.png)
 
-
 There were a few reasons why I wanted to run an external VPN server to access my infra:
 1. Minimal exposure of on-prem ports and IP. Running it on-prem would mean that I would need to expose a listening port on my on-prem hardware.
 2. I wanted to remotely administer my services.
 3. Technically not running C2 infra on VPS.
 
-## Nothing but UDP
-To keep this configuration as secure as possible, the VPS is only tasked with running WireGuard and has minimal services.
+## Exposing nothing but UDP
+To keep this configuration as secure as possible, the VPS is only tasked with running WireGuard and a few other connectivity services that I will explain later.
 
-With cloud-init and my cloud provider being able to spin up a VPS under 30 seconds, I also gain a very interesting choice: to manage my server (i.e. to add clients)
+With cloud-init and my cloud provider being able to spin up a VPS under 30 seconds, I also a f very interesting choice to manage my server (i.e. to add clients):
 
 1. I could manually SSH in to update the configuration
 2. or I could update the cloud-init config, tear down and spin up a new server, making my VPN server an ephemeral server.
