@@ -166,7 +166,7 @@ With the VPC created, a service ID is generated which I can use to create a work
 
 The  `index.js` itself is also quite straightforward. It just forwards the request to the C2 through the VPC.
 
-```
+```js
 export default {
     async fetch(request, env) {
         const url = new URL(request.url);
@@ -184,7 +184,7 @@ export default {
   
 
         try {
-            // env.PRIVATE_API is your VPC binding name from wrangler.jsonc
+            // env.REPEATER is your VPC binding name from wrangler.jsonc
             return await env.REPEATER.fetch(modifiedRequest);
         } catch (err) {
             return new Response(`Proxy error: ${err.message}`, { status: 502 });
@@ -192,3 +192,5 @@ export default {
     },
 };
 ```
+
+After deploying the worker, the architecture looks like this:
