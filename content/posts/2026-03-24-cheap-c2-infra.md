@@ -31,12 +31,17 @@ There were a few reasons why I wanted to run an external VPN server to access my
 ## Exposing nothing but UDP
 To keep this configuration as secure as possible, the VPS is only tasked with running WireGuard and a few other connectivity services that I will explain later.
 
-With cloud-init and my cloud provider being able to spin up a VPS under 30 seconds, I also a f very interesting choice to manage my server (i.e. to add clients):
+With cloud-init and my cloud provider being able to spin up a VPS under 30 seconds, I also a few very interesting choices to manage my server (i.e. to add clients):
 
 1. I could manually SSH in to update the configuration
-2. or I could update the cloud-init config, tear down and spin up a new server, making my VPN server an ephemeral server.
+2. **or** I could update the cloud-init config, tear down and spin up a new server whenever I need to make an edit
 
-Two sounded appropriately fun. And if I am constantly recreating the server and updating it with the latest patches when I spin it up, I don't need remote access to patch or maintain it.
+The reason why option 2 is appealing is that:
+1. it ensures that I have fixed configuration and not a fragile one that is tied to any particular server 
+2. it ensures that the server is patched to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
+3. No remote access is needed due to the above 2
+
+Now point 3 is important because 
 
 So remote access: gone. Can't force open a door when the door is never installed in the first place.
 
