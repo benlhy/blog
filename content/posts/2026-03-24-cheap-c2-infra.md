@@ -7,6 +7,10 @@ tag:
   - c2
   - infra
   - "2026"
+cover:
+  image: /images/2025/12/Gemini_Generated_Image_2kj3ap2kj3ap2kj3.png
+  relative: false
+  hiddenInList: false
 ---
 I recently finished the CRTO course, and it got me very interested in building red team infrastructure. This interest also came from an instance when I was warned by my very nice VPS provider that running C2 infrastructure was not allowed on their infrastructure.
 
