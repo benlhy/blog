@@ -142,4 +142,53 @@ Setting up a Worker VPC is quite straightforward. Since I have already created a
 
 Creating the service just needs a name and the tunnel I created earlier. The host or IP address is the internal IP address of the C2 server. Since Cloudflare Workers only serve HTTP or HTTPS, I left the ports as default.
 ![](static/images/2026/Pasted%20image%2020260325094823.png)
-Witht 
+With the VPC created, a service ID is generated which I can use to create a worker. I chose to deploy via wrangler locally.
+
+```wrangler.jsonc
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "my-worker",
+    "main": "src/index.js",
+    "compatibility_date": "2026-03-01",
+    "observability": {
+        "enabled": true,
+    },
+    "compatibility_flags": ["nodejs_compat"],
+    "vpc_services": [
+        {
+            "binding": "REPEATER",
+            "service_id": SERVICE_ID_HERE,
+            "remote": true, // When true, utilizes [remote bindings](/workers/development-testing/#remote-bindings) to allow access to the VPC Service during local development.
+        },
+    ],
+}
+```
+
+The  `index.js` itself is also quite straightforward. It just forwards the request to the C2 through the VPC.
+
+```
+export default {
+    async fetch(request, env) {
+        const url = new URL(request.url);
+        url.protocol = 'http:';
+        const headers = new Headers(request.headers);
+        headers.delete('Accept-Encoding');
+
+        const modifiedRequest = new Request(url.toString(), {
+            method: request.method,
+            headers: headers,
+            body: ['GET', 'HEAD'].includes(request.method) ? null : request.body,
+            redirect: 'follow',
+        });
+
+  
+
+        try {
+            // env.PRIVATE_API is your VPC binding name from wrangler.jsonc
+            return await env.REPEATER.fetch(modifiedRequest);
+        } catch (err) {
+            return new Response(`Proxy error: ${err.message}`, { status: 502 });
+        }
+    },
+};
+```
