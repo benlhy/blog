@@ -130,4 +130,16 @@ This creates the first hop. By running the `cloudflared` daemon on the WireGuard
 
 But how can beacons connect to the WireGuard C2?
 
-![](static/images/2026/Screenshot%202026-03-24%20210605.png)
+## Cloudflare Worker VPC
+I make no secret of loving Cloudflare Workers. Fast & serverless, they are great for quick computing tasks.
+
+With the Cloudflare Worker VPC, I can also connect them to internal endpoints that are not accessible to the public internet.
+
+And the tunnel is not accessible to the public internet because I have not connected any routes to it.
+
+Setting up a Worker VPC is quite straightforward. Since I have already created a tunnel, I can create a VPC service that is linked to my tunnel.
+![](static/images/2026/Pasted%20image%2020260325094631.png)
+
+Creating the service just needs a name and the tunnel I created earlier. The host or IP address is the internal IP address of the C2 server. Since Cloudflare Workers only serve HTTP or HTTPS, I left the ports as default.
+![](static/images/2026/Pasted%20image%2020260325094823.png)
+Witht 
