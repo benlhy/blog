@@ -196,5 +196,5 @@ export default {
 After deploying the worker, the architecture looks like this:
 
 ![](static/images/2026/Pasted%20image%2020260325135044.png)
-The benefit of this architecture is that I can leverage the good reputation of Cloudflare via Cloudflare Workers. I can also set up redirectors via workers and rotate them quickly across different campaigns if needed
+The benefit of this architecture is that I can leverage the good reputation of Cloudflare via Cloudflare Workers. I can also set up redirectors via workers and rotate them quickly across different campaigns if needed.
 
