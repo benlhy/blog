@@ -105,7 +105,7 @@ sudo crontab -e
 ```
 
 ## Now for the C2 infra
-Assuming that I used HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
+Assuming that I use HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
 
 While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server is a little close to home, and besides, I didn't want to get another warning letter from my service provider.
 
