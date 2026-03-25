@@ -70,7 +70,7 @@ The theory is that I can stuff in an update call in the WireGuard server when it
 
 ![](/images/Pasted%20image%2020260324200842.png)
 
-## then it was time for problem 2
+## Then it was time for problem 2
 > **Long lived WireGuard clients only resolve their DNS once.**
 
 Honestly this wasn't a problem if I only occasionally connected with my remote client. Each time I turned it on, it would resolve the DNS correctly.
@@ -104,7 +104,7 @@ sudo crontab -e
 */5 * * * * /bin/bash /usr/share/doc/wireguard-tools/examples/reresolve-dns/reresolve-dns.sh wg0 > /dev/null 2>&1
 ```
 
-## now for the C2 infra
+## Now for the C2 infra
 Assuming that I used HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
 
 While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server is a little close to home, and besides, I didn't want to get another warning letter from my service provider.
