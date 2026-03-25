@@ -12,12 +12,12 @@ I recently finished the CRTO course, and it got me very interested in building r
 
 I'm not an expert in setting up C2 infra, and I'm sure others have way more sophisticated setups than mine, but this is how I've chosen to set up my infra.
 
-Tldr: this also includes how I decided to set up the on-prem infra which I thought was sufficiently interesting.
+Tldr: this also includes how I decided to set up the connectivity to the on-prem infra which I thought was sufficiently interesting to include. If you are interested in how I set up the C2 portion only, then feel free to skip the first half to the Cloudflare portion.
 
 # Starting with on-prem
-The first order of business is to secure access to my C2 infra. Assuming that I run it on an on-prem (read: Raspberry Pi) server, that means that I would need a VPN to access it.
+The first order of business is to secure access to my C2 infra. Assuming that I run it on an on-prem (read: Raspberry Pi) server, that means that I would need a VPN to access it if I wanted to access it from outside the network.
 
-I could use Tailscale, but I wanted a more private solution. I decided to run an external WireGuard node on a VPS.
+I'm  could use Tailscale, but I wanted a more private solution. I decided to run an external WireGuard node on a VPS.
 
 ![](/images/initial-wg.png)
 
@@ -194,3 +194,7 @@ export default {
 ```
 
 After deploying the worker, the architecture looks like this:
+
+![](static/images/2026/Pasted%20image%2020260325135044.png)
+The benefit of this architecture is that I can leverage the good reputation of Cloudflare via Cloudflare Workers. I can also set up redirectors via workers and rotate them quickly across different campaigns if needed
+
