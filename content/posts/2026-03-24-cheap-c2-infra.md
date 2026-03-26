@@ -1,8 +1,14 @@
 ---
-title: Cheap C2 Infra
+title: Cheap and Simple C2 Infra
 date: 2026-03-24T16:16:07+08:00
 draft: false
-tag: ["offensive security", "c2", "red team", "infra", "2026", "CRTO"]
+tag:
+  - offensive security
+  - c2
+  - red team
+  - infra
+  - "2026"
+  - CRTO
 cover:
   image: /images/2026/map.png
   relative: false
@@ -12,7 +18,7 @@ I recently finished the CRTO course (which is extremely great value) and it got 
 
 I'm not an expert in setting up C2 infra, and I'm sure others have way more sophisticated setups than mine, but this is how I've chosen to set up my infra.
 
-BTW: this also includes how I decided to set up my connectivity to the on-prem infra which I thought was sufficiently interesting. If you are interested in how I set up the C2 portion only, then feel free to skip the first half to the Cloudflare portion.
+BTW: this also includes how I decided to set up my connectivity to the on-prem infra which I thought was sufficiently interesting. If you are interested in how I set up the C2 portion only, then feel free to skip the [first half to the Cloudflare portion](#now-for-the-c2-infra).
 
 # Starting with on-prem
 I wanted to own the hardware running the C2 as keeping a server running 24/7 adds up costs, especially if it is only for my own learning.
@@ -200,4 +206,9 @@ After deploying the worker, the architecture looks like this:
 
 ![](static/images/2026/Pasted%20image%2020260325135044.png)
 The benefit of this architecture is that I can leverage the good reputation of Cloudflare via Cloudflare Workers. I can also set up redirectors via workers and rotate them quickly across different campaigns if needed.
+
+(beacon setup here)
+
+# Conclusion
+I think this is a reasonably secure and simple base to work from. It provides some flexibility in the Cloudflare layer to rotate between workers, but if the target is operating mainly using AWS or Azure, then spinning up a corresponding redirection layer on top of Cloudflare also works.
 
