@@ -43,9 +43,10 @@ With cloud-init and my cloud provider being able to spin up a VPS under 30 secon
 2. **or** I could update the cloud-init config, tear down and spin up a new server whenever I need to make an edit
 
 The reason why option 2 is appealing is that:
+
 1. it ensures that I have fixed configuration and not a fragile one that is tied to any particular server 
 2. it ensures that the server is patched to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
-3. **No remote access is needed** due to the above 2
+3. **No remote access is needed** due to the above 2 points
 
 Now point 3 is important because this node will be the one exposed to the public internet, so I would like minimum surface exposure.
 
