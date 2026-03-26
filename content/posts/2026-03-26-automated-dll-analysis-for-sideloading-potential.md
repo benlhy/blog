@@ -18,3 +18,4 @@ There are a few steps in the discovery process:
 5. Run the debug process until a DLL in the prior list is loaded.
 6. List the exported symbols so that we can create a proxy with the right parameters.
 
+However, these are all quite deterministic that doesn't require the use of an LLM. We can achieve the same with a script. The benefit of an LLM is that we can use its reasoning capabilities to perform self healing.

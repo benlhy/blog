@@ -44,21 +44,21 @@ With cloud-init and my cloud provider being able to spin up a VPS under 30 secon
 
 The reason why option 2 is appealing is that:
 
-1. it ensures that I have fixed configuration and not a fragile one that is tied to any particular server 
-2. it ensures that the server is patched to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
-3. **No remote access is needed** due to the above 2 points
+1. **Fixed configuration** and not a fragile one that is tied to any particular server 
+2. **Server is patched** to the latest version (just destroy, spin up a new one `apt update && apt upgrade`)
 
-Now point 3 is important because this node will be the one exposed to the public internet, so I would like minimum surface exposure.
+**No remote access is needed** due to the above 2 points which is important because this node will be the one exposed to the public internet, so I wanted minimum exposure.
 
-Remote access: gone. Can't force open a door when the door is never installed in the first place. :) This also creates a few other benefits:
+This also creates a few other benefits:
 
-1. **A more secure VPN server.** Now only the listening port is the UDP port required for initial WireGuard connections is required to be open.
-2. **Cheaper.** The VPN can be spun up as required and spun down when not.
+1. **A more secure VPN server.** Now only the listening port is the UDP port required for initial WireGuard connections is required to be open. No SSH port, RDP, or VNC required.
+2. **Cheaper.** The VPN can be spun up as required and destroyed when not.
+---
 
 ## I immediately ran into problem 1
 >**Constantly recreating servers means that the IP is not fixed. How will clients know which IP to connect to?**
 
-## fixed ip?
+## Fixed ip?
 
 I initially tried buying a fixed IP, and it took a few networking shenanigans before I was able to allocate the fixed IP consistently to the VPS and route WireGuard traffic through it. 
 
@@ -81,6 +81,8 @@ It is simple enough, sign up using an account, you're given a token that you can
 The theory is that I can add an update call into the cloud-init config of the WireGuard server when it is being spun up to update the DNS entry, which would allow clients to know the IP address of the new server.
 
 ![](static/images/2026/Pasted%20image%2020260324200842.png)
+
+---
 
 ## Then it was time for problem 2
 > **Long lived WireGuard clients only resolve their DNS once.**
@@ -116,7 +118,8 @@ sudo crontab -e
 */5 * * * * /bin/bash /usr/share/doc/wireguard-tools/examples/reresolve-dns/reresolve-dns.sh wg0 > /dev/null 2>&1
 ```
 
-## Now for the C2 infra
+---
+# Now for the C2 infra
 Assuming that I use HTTP/S for my C2 communications, simply forwarding requests from port 80 and 443 to my C2 server on the on-prem server will only result in the forwarding server being flagged, since it will appear to any observers that the responses originate from that server.
 
 While the whole point of redirectors are to be a disposable resource, tasking the WireGuard server with being the redirector is a little close to home, and besides, I didn't want to get another warning email from my service provider, or worse, a termination letter.
