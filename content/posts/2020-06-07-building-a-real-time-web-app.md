@@ -203,13 +203,13 @@ Happily enough, the Firebase API also extends to Javascript, so it is just a mat
 ```Javascript
 // Your web app's Firebase configuration
 var firebaseConfig = {
-apiKey: "AIzaSSDkVtECu22wYZlXr9JHsJ-pkea7hCWmmOA",
-authDomain: "bus-stop-553211.firebaseapp.com",
-databaseURL: "https://bus-stop-553211.firebaseio.com",
-projectId: "bus-stop-553211",
-storageBucket: "bus-stop-553211.appspot.com",
-messagingSenderId: "25606073122543",
-appId: "1:25606073122543:web:cff9f0ad4c4226ba7dakm36b"
+apiKey: "[your FIREBASE API KEY]",
+authDomain: "[PROEJCT_ID].firebaseapp.com",
+databaseURL: "https://[PROJECT_ID].firebaseio.com",
+projectId: "[PROJECT_ID]",
+storageBucket: "[BUCKET]",
+messagingSenderId: "[YOUR SENDER ID]",
+appId: "[YOUR APP ID]"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
