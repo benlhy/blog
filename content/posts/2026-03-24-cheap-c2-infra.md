@@ -27,7 +27,7 @@ The first order of business is to secure access to my C2 infra. Assuming that I 
 
 I'm  could use Tailscale, but I wanted a more private solution. I decided to run an external WireGuard node on a VPS.
 
-![](/images/initial-wg.png)
+![](static/images/2026/initial-wg.png)
 
 There were a few reasons why I wanted to run an external VPN server to access my infra:
 1. Minimal exposure of on-prem ports and IP. Running it on-prem would mean that I would need to expose a listening port on my on-prem hardware.
@@ -73,13 +73,13 @@ However, I realised this defeated the cost-efficiency purpose of an ephemeral se
 
 Dynamic DNS works by having a domain (or subdomain) name resolve to an IP that you control. The idea is that the server would update the DNS entry when it receives its IPv4 IP address allocation. Clients would then query this DNS entry for the new IP address of the server to connect to. Duck DNS provides a free DDNS service.
 
-![](/images/Screenshot%202026-03-19%20100328.png)
+![](static/images/2026/Screenshot%202026-03-19%20100328.png)
 
 It is simple enough, sign up using an account, you're given a token that you can use to update the IP of a DNS address that you choose.
 
 The theory is that I can add an update call into the cloud-init config of the WireGuard server when it is being spun up to update the DNS entry, which would allow clients to know the IP address of the new server.
 
-![](/images/Pasted%20image%2020260324200842.png)
+![](static/images/2026/Pasted%20image%2020260324200842.png)
 
 ## Then it was time for problem 2
 > **Long lived WireGuard clients only resolve their DNS once.**
@@ -134,7 +134,7 @@ Cloudflare tunnels have been out for awhile now and are mainly used for their Ze
 
 This creates the first hop. By running the `cloudflared` daemon on the WireGuard server, it creates an outgoing tunnel to Cloudflare, which again minimises the detection surface area of the C2 infra as we are not exposing any ports on our VPN hop.
 
-![](/images/Pasted%20image%2020260324210618.png)
+![](static/images/2026/Pasted%20image%2020260324210618.png)
 
 
 But how can beacons connect to the WireGuard C2?
